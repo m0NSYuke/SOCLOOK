@@ -30,7 +30,11 @@ npm run build
 
 ## GitHub 上线
 
-源码仓库：https://github.com/m0NSYuke/SOCLOOK 。仓库与 Pages 已按用户要求设为公开；以 Actions 的成功部署及页面读回确认实际上线。
+公开源码仓库：https://github.com/m0NSYuke/SOCLOOK
+
+公开网站：https://m0nsyuke.github.io/SOCLOOK/
+
+2026-10-16 已完成首次云端采集、构建与 Pages 发布，线上首页、JS/CSS、候选清单及周报档案读回通过。
 
 先完成 `gh auth login --hostname github.com --git-protocol https --web`，使用预期的 GitHub 账号。只将本目录作为独立仓库上传，不上传工作区其他旧副本、Sites 身份、数据库、个人笔记或凭据。
 
@@ -38,4 +42,4 @@ npm run build
 
 用户于 2026-10-16 明确选择源码与网站全部公开。所有已提交文件及其 Git 历史都可公开读取；前端与构建产物不得包含秘密或个人记录。
 
-在部署成功前不把预计的 github.io 地址当作已上线地址，既有 Sites 网站保持原样。正式周报导入、每周研究标准和迁移状态见 UPDATE_GUIDE.md。
+GitHub Pages 为当前主入口；原 Sites 保留原样，不再作为每周发布目标。正式周报导入和研究标准见 UPDATE_GUIDE.md。

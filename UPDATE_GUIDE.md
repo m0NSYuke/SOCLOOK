@@ -2,9 +2,9 @@
 
 ## 当前决策（2026-10-16）
 
-所有者 m0NSYuke。用户已明确选择：**源码仓库和网站全部公开**。新建独立 SOCLOOK 仓库与项目网站，不修改已有个人主页。旧 Sites 网站在新站成功部署前继续作为原入口；不改其权限、不迁移旧 R2 个人记录。
+所有者 m0NSYuke。用户已明确选择：**源码仓库和网站全部公开**。新建独立 SOCLOOK 仓库与项目网站，不修改已有个人主页。主入口为 https://m0nsyuke.github.io/SOCLOOK/ 。旧 Sites 保留原样，不再作为每周发布目标；不迁移旧 R2 个人记录。
 
-GitHub CLI 已使用 m0NSYuke 完成重新授权。公开源码仓库为 https://github.com/m0NSYuke/SOCLOOK，默认分支 main，Pages 已配置 GitHub Actions，PAGES_ENABLED=true。只有工作流成功部署并实际读回网站后，才宣布完成上线。
+GitHub CLI 已使用 m0NSYuke 完成重新授权。公开源码仓库为 https://github.com/m0NSYuke/SOCLOOK，默认分支 main，Pages 已配置 GitHub Actions，PAGES_ENABLED=true。2026-10-16 首轮云端采集、构建、发布成功；线上首页、JS/CSS、collection.json 与 reports.json 均已读回，5/5来源、29条待核验候选，正式周报最新一期仍为2026-10-10。
 
 ## 自动采集与正式周报
 
@@ -41,6 +41,6 @@ npm run build
 
 GitHub 源仓库与 Pages 均公开，不上传个人笔记、关注记录、数据库、.env、凭据、Sites 身份配置或工具运行目录。浏览器资源可公开读取，前端不得嵌入秘密。
 
-Pages API 已确认公开仓库支持发布并启用了 PAGES_ENABLED=true。部署结果成功后记录真实 URL；实际站点内容读回通过后，才更新主入口与原有每周研究任务。未完成时明确报告阻碍，不声称网站已迁移。
+Pages API 已确认公开仓库支持发布并启用了 PAGES_ENABLED=true。原有每周六09:00研究任务已切换为本目录与公开 GitHub Pages 主站：研究后导入、检查、提交两份周报JSON、推送main，再等待部署并读回。每次更新仍须以实际成功为准，失败保留旧版。
 
 通知只在成功上线、失败或需要用户行动时发送。未变化的中间状态保持安静。
