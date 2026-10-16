@@ -39,7 +39,7 @@ jobs:
       - run: npm run validate
       - run: node --experimental-strip-types scripts/test-report-import.mjs
       - run: npm run build
-      - name: Preserve collection history in private repository
+      - name: Preserve collection history in repository
         if: github.event_name != 'push'
         run: |
           git add data/

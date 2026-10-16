@@ -1,6 +1,6 @@
 # SOCLOOK
 
-m0NSYuke 的全球观察站。目标是独立的 **private GitHub 源码仓库 + 公开网站 + 每周自动采集**，不修改已有个人主页。
+m0NSYuke 的全球观察站。目标是独立的 **公开 GitHub 源码仓库 + 公开网站 + 每周自动采集**，不修改已有个人主页。
 
 ## 本地运行与检查
 
@@ -30,10 +30,12 @@ npm run build
 
 ## GitHub 上线
 
+源码仓库：https://github.com/m0NSYuke/SOCLOOK 。仓库与 Pages 已按用户要求设为公开；以 Actions 的成功部署及页面读回确认实际上线。
+
 先完成 `gh auth login --hostname github.com --git-protocol https --web`，使用预期的 GitHub 账号。只将本目录作为独立仓库上传，不上传工作区其他旧副本、Sites 身份、数据库、个人笔记或凭据。
 
-新建 private 仓库 SOCLOOK，将本目录提交到 main。GitHub 仓库 Settings → Pages → Build and deployment 选择 GitHub Actions；确认 Pages 支持 private 源仓库后，将 Actions repository variable `PAGES_ENABLED` 设置为 `true`。再次手动运行本工作流，在 deploy 作业成功后读取其实际网址并验证。
+使用公开仓库 SOCLOOK，默认分支 main。GitHub 仓库 Settings → Pages → Build and deployment 已选择 GitHub Actions；Actions repository variable `PAGES_ENABLED` 已设为 `true`。再次手动运行本工作流，在 deploy 作业成功后读取其实际网址并验证。
 
-个人 private 仓库的 GitHub Pages 需要 GitHub Pro 或其他支持该功能的套餐。仓库保持 private，生成的网页和浏览器加载到的资源仍公开。若套餐不支持，不把仓库改为 public；先保留构建产物，再选择支持 private 仓库的托管服务。
+用户于 2026-10-16 明确选择源码与网站全部公开。所有已提交文件及其 Git 历史都可公开读取；前端与构建产物不得包含秘密或个人记录。
 
 在部署成功前不把预计的 github.io 地址当作已上线地址，既有 Sites 网站保持原样。正式周报导入、每周研究标准和迁移状态见 UPDATE_GUIDE.md。
