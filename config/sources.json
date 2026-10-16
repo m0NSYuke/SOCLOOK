@@ -1,0 +1,15 @@
+{
+  "timezone": "Asia/Shanghai",
+  "feeds": [
+    {"id": "openai", "name": "OpenAI 官方动态", "url": "https://openai.com/news/rss.xml", "task": "AI 基础模型与智能体"},
+    {"id": "nvidia", "name": "NVIDIA 官方博客", "url": "https://blogs.nvidia.com/feed/", "task": "算力、机器人与产业应用"},
+    {"id": "huggingface", "name": "Hugging Face 官方博客", "url": "https://huggingface.co/blog/feed.xml", "task": "开源模型与研究方法"},
+    {"id": "bis", "name": "国际清算银行新闻稿", "url": "https://www.bis.org/doclist/all_pressrels.rss", "task": "宏观、金融与支付"},
+    {"id": "fed", "name": "美联储新闻稿", "url": "https://www.federalreserve.gov/feeds/press_all.xml", "task": "宏观与金融政策"}
+  ],
+  "researchTasks": [
+    {"name": "国内外 AI、具身智能、VLA 与 WAM", "sources": ["https://github.com/deepseek-ai", "https://github.com/QwenLM", "https://www.pi.website/", "https://www.unitree.com/"], "mode": "research", "note": "需要搜索并阅读原文；RSS 未覆盖这些来源，不能据此判定本周没有进展。"},
+    {"name": "中国产业、统计与政策", "sources": ["https://www.gov.cn/", "https://www.stats.gov.cn/"], "mode": "research", "note": "由周报研究核验，不用海外 RSS 代替国内覆盖。"},
+    {"name": "投资、创业与职业成长", "sources": [], "mode": "research", "note": "按 UPDATE_GUIDE.md 综合研判，保留验证指标与反面证据，不自动生成投资结论。"}
+  ]
+}

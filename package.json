@@ -1,0 +1,29 @@
+{
+  "name": "soclook",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-pages.mjs",
+    "check": "tsc --noEmit",
+    "validate": "node --experimental-strip-types scripts/validate-content.mjs",
+    "collect": "python scripts/collect_sources.py",
+    "import-report": "node --experimental-strip-types scripts/import-report.mjs"
+  },
+  "dependencies": {
+    "react": "19.2.6",
+    "react-dom": "19.2.6",
+    "lucide-react": "^1.31.0",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "vite": "8.0.13",
+    "@vitejs/plugin-react": "6.0.2",
+    "typescript": "5.9.3",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "@types/node": "22.19.19",
+    "tailwindcss": "4.2.1",
+    "@tailwindcss/postcss": "4.2.1"
+  }
+}

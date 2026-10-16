@@ -1,0 +1,13 @@
+node_modules/
+pages-dist/
+pages-release.json
+pages-source.json
+.env*
+*.tsbuildinfo
+__pycache__/
+*.pyc
+.openai/
+.wrangler/
+.sites-runtime/
+*.db
+*.sqlite*

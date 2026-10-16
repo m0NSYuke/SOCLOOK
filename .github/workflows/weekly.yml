@@ -1,0 +1,81 @@
+name: Weekly collection and public website
+
+on:
+  schedule:
+    # Saturday 08:35 Asia/Shanghai. GitHub may delay scheduled jobs.
+    - cron: '35 0 * * 6'
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: soclook-production
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - run: npm ci --ignore-scripts --no-audit --no-fund
+      - run: python -m unittest discover -s scripts -p 'test_*.py'
+      - name: Collect public source links
+        if: github.event_name != 'push'
+        run: python scripts/collect_sources.py
+      - run: npm run check
+      - run: npm run validate
+      - run: node --experimental-strip-types scripts/test-report-import.mjs
+      - run: npm run build
+      - name: Preserve collection history in private repository
+        if: github.event_name != 'push'
+        run: |
+          git add data/
+          if ! git diff --cached --quiet; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git commit -m 'Update weekly source collection'
+            git push origin HEAD:main
+          fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: soclook-static-site
+          path: pages-dist
+          include-hidden-files: true
+          retention-days: 14
+      - name: Package GitHub Pages
+        if: vars.PAGES_ENABLED == 'true'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: pages-dist
+      - name: Explain deployment status
+        if: vars.PAGES_ENABLED != 'true'
+        run: echo 'Build succeeded. Enable GitHub Pages and set PAGES_ENABLED=true to deploy.' >> "$GITHUB_STEP_SUMMARY"
+
+  deploy:
+    if: vars.PAGES_ENABLED == 'true'
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy public site
+        id: deployment
+        uses: actions/deploy-pages@v4
