@@ -1,0 +1,381 @@
+{
+  "format": 1,
+  "generatedAt": "2026-10-17T04:56:09.687734+00:00",
+  "start": "2026-10-11",
+  "end": "2026-10-17",
+  "status": "ok",
+  "items": [
+    {
+      "id": "9732b2763df5a67ab945",
+      "title": "How Itaú is building generative AI for its entire customer base",
+      "url": "https://openai.com/index/itau-generative-ai",
+      "publishedAt": "2026-10-16T19:00:00+00:00",
+      "sourceId": "openai",
+      "sourceName": "OpenAI 官方动态",
+      "task": "AI 基础模型与智能体",
+      "status": "待核验"
+    },
+    {
+      "id": "e2834c74f4065e96c922",
+      "title": "Federal Reserve Board announces termination of enforcement actions with Gardner Bancshares, Inc. and Small Business Bank",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261016a.htm",
+      "publishedAt": "2026-10-16T15:00:00+00:00",
+      "sourceId": "fed",
+      "sourceName": "美联储新闻稿",
+      "task": "宏观与金融政策",
+      "status": "待核验"
+    },
+    {
+      "id": "138e9b7e7d9747243aa5",
+      "title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
+      "url": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
+      "publishedAt": "2026-10-16T01:44:47+00:00",
+      "sourceId": "huggingface",
+      "sourceName": "Hugging Face 官方博客",
+      "task": "开源模型与研究方法",
+      "status": "待核验"
+    },
+    {
+      "id": "c9a6184923cc1a5837b4",
+      "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
+      "url": "https://huggingface.co/blog/reflection-beam",
+      "publishedAt": "2026-10-16T00:00:00+00:00",
+      "sourceId": "huggingface",
+      "sourceName": "Hugging Face 官方博客",
+      "task": "开源模型与研究方法",
+      "status": "待核验"
+    },
+    {
+      "id": "a13336ed3116bc632929",
+      "title": "Basel Committee finalises measures to address window-dressing in the G-SIB framework and consults on G-SIB methodology review",
+      "url": "https://www.bis.org/media-releases/20261016-basel-committee-finalises-measures-address-window-dressing-g-sib-framework-and-consults-g-sib",
+      "publishedAt": "2026-10-16T00:00:00+00:00",
+      "sourceId": "bis",
+      "sourceName": "国际清算银行新闻稿",
+      "task": "宏观、金融与支付",
+      "status": "待核验"
+    },
+    {
+      "id": "9e63539289a31c8631b6",
+      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+      "publishedAt": "2026-10-16T00:00:00+00:00",
+      "sourceId": "openai",
+      "sourceName": "OpenAI 官方动态",
+      "task": "AI 基础模型与智能体",
+      "status": "待核验"
+    },
+    {
+      "id": "d330643595776f9f542e",
+      "title": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+      "publishedAt": "2026-10-15T20:34:01+00:00",
+      "sourceId": "huggingface",
+      "sourceName": "Hugging Face 官方博客",
+      "task": "开源模型与研究方法",
+      "status": "待核验"
+    },
+    {
+      "id": "32165ee6af8945a5bd83",
+      "title": "Bringing GPT-Rosalind to academic research labs",
+      "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+      "publishedAt": "2026-10-15T19:00:00+00:00",
+      "sourceId": "openai",
+      "sourceName": "OpenAI 官方动态",
+      "task": "AI 基础模型与智能体",
+      "status": "待核验"
+    },
+    {
+      "id": "46e7cecee360222aa213",
+      "title": "Be There for the Beginning: Celebrate the Launch of NVIDIA RTX Spark",
+      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-launch-event-invite/",
+      "publishedAt": "2026-10-15T17:00:23+00:00",
+      "sourceId": "nvidia",
+      "sourceName": "NVIDIA 官方博客",
+      "task": "算力、机器人与产业应用",
+      "status": "待核验"
+    },
+    {
+      "id": "b655aadac97a31177c2f",
+      "title": "Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models",
+      "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
+      "publishedAt": "2026-10-15T15:00:24+00:00",
+      "sourceId": "nvidia",
+      "sourceName": "NVIDIA 官方博客",
+      "task": "算力、机器人与产业应用",
+      "status": "待核验"
+    },
+    {
+      "id": "efd79f8f5d3d6f6bc420",
+      "title": "Dial Up the Cloud: NVIDIA DLSS 4.5 Controls Arrive on GeForce NOW",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-enshrouded-update/",
+      "publishedAt": "2026-10-15T13:00:59+00:00",
+      "sourceId": "nvidia",
+      "sourceName": "NVIDIA 官方博客",
+      "task": "算力、机器人与产业应用",
+      "status": "待核验"
+    },
+    {
+      "id": "a60f4a701f887ae8f46b",
+      "title": "Teaching students to think and learn through questions",
+      "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+      "publishedAt": "2026-10-15T13:00:00+00:00",
+      "sourceId": "openai",
+      "sourceName": "OpenAI 官方动态",
+      "task": "AI 基础模型与智能体",
+      "status": "待核验"
+    },
+    {
+      "id": "fb231790bb312d5b8f0e",
+      "title": "NVIDIA Expands Advanced Technology Access for Europe’s Scientific Community Through Open Learning Resources, Collaborations and Compute",
+      "url": "https://blogs.nvidia.com/blog/ec-scientific-computing-pledge/",
+      "publishedAt": "2026-10-15T10:00:12+00:00",
+      "sourceId": "nvidia",
+      "sourceName": "NVIDIA 官方博客",
+      "task": "算力、机器人与产业应用",
+      "status": "待核验"
+    },
+    {
+      "id": "c46dcdda349de0a51015",
+      "title": "The Nordics and NVIDIA Show What’s Possible When a Region Commits to Advanced Computing",
+      "url": "https://blogs.nvidia.com/blog/nordics-technology-ecosystem/",
+      "publishedAt": "2026-10-15T05:00:12+00:00",
+      "sourceId": "nvidia",
+      "sourceName": "NVIDIA 官方博客",
+      "task": "算力、机器人与产业应用",
+      "status": "待核验"
+    },
+    {
+      "id": "ff0cf28c5d7530571030",
+      "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
+      "url": "https://huggingface.co/blog/meta-muse-spark-open",
+      "publishedAt": "2026-10-15T00:00:00+00:00",
+      "sourceId": "huggingface",
+      "sourceName": "Hugging Face 官方博客",
+      "task": "开源模型与研究方法",
+      "status": "待核验"
+    },
+    {
+      "id": "eb67409897ed2136a753",
+      "title": "Welcome FLUX.3 Image Klein in Diffusers",
+      "url": "https://huggingface.co/blog/flux-3",
+      "publishedAt": "2026-10-15T00:00:00+00:00",
+      "sourceId": "huggingface",
+      "sourceName": "Hugging Face 官方博客",
+      "task": "开源模型与研究方法",
+      "status": "待核验"
+    },
+    {
+      "id": "94eadcab22c41e356a1d",
+      "title": "Sullivan & Cromwell brings legal expertise into agreement review",
+      "url": "https://openai.com/index/sullivan-cromwell",
+      "publishedAt": "2026-10-15T00:00:00+00:00",
+      "sourceId": "openai",
+      "sourceName": "OpenAI 官方动态",
+      "task": "AI 基础模型与智能体",
+      "status": "待核验"
+    },
+    {
+      "id": "504a28fcb44d1a3d50f6",
+      "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
+      "url": "https://huggingface.co/blog/allenai/hiro-acev2",
+      "publishedAt": "2026-10-14T16:12:42+00:00",
+      "sourceId": "huggingface",
+      "sourceName": "Hugging Face 官方博客",
+      "task": "开源模型与研究方法",
+      "status": "待核验"
+    },
+    {
+      "id": "57c3309db5bedcdec4e0",
+      "title": "Amp puts AI agents to work beyond code with OpenAI models",
+      "url": "https://openai.com/index/amp-beyond-coding",
+      "publishedAt": "2026-10-14T12:00:00+00:00",
+      "sourceId": "openai",
+      "sourceName": "OpenAI 官方动态",
+      "task": "AI 基础模型与智能体",
+      "status": "待核验"
+    },
+    {
+      "id": "004cd593adabcd24c97d",
+      "title": "SentinelOne cuts malware analysis from weeks to hours",
+      "url": "https://openai.com/index/sentinelone",
+      "publishedAt": "2026-10-14T12:00:00+00:00",
+      "sourceId": "openai",
+      "sourceName": "OpenAI 官方动态",
+      "task": "AI 基础模型与智能体",
+      "status": "待核验"
+    },
+    {
+      "id": "a8b8c31de898145e14c8",
+      "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
+      "url": "https://openai.com/index/third-moment-research",
+      "publishedAt": "2026-10-14T07:00:00+00:00",
+      "sourceId": "openai",
+      "sourceName": "OpenAI 官方动态",
+      "task": "AI 基础模型与智能体",
+      "status": "待核验"
+    },
+    {
+      "id": "94ee28b93f9d2d830319",
+      "title": "How Block is building AI-powered security with OpenAI technology",
+      "url": "https://openai.com/index/block-ai-powered-security",
+      "publishedAt": "2026-10-14T07:00:00+00:00",
+      "sourceId": "openai",
+      "sourceName": "OpenAI 官方动态",
+      "task": "AI 基础模型与智能体",
+      "status": "待核验"
+    },
+    {
+      "id": "eee6cc87fc10c5839674",
+      "title": "NVIDIA Announces New Investments in the UK Startup Ecosystem",
+      "url": "https://blogs.nvidia.com/blog/uk-ecosystem-deployment/",
+      "publishedAt": "2026-10-14T06:04:15+00:00",
+      "sourceId": "nvidia",
+      "sourceName": "NVIDIA 官方博客",
+      "task": "算力、机器人与产业应用",
+      "status": "待核验"
+    },
+    {
+      "id": "8323b3b7fc78f153da00",
+      "title": "European Cities Deploy NVIDIA-Powered AI Agents to Run Smarter Urban Operations",
+      "url": "https://blogs.nvidia.com/blog/european-cities-agents-urban-operations/",
+      "publishedAt": "2026-10-14T06:00:28+00:00",
+      "sourceId": "nvidia",
+      "sourceName": "NVIDIA 官方博客",
+      "task": "算力、机器人与产业应用",
+      "status": "待核验"
+    },
+    {
+      "id": "818b3a081587b402b7ba",
+      "title": "Global standard-setting bodies publish final report on guidance for FMIs on general business risks and general business losses",
+      "url": "https://www.bis.org/media-releases/20261014-global-standard-setting-bodies-publish-final-report-guidance-fmis-general-business-risks-and",
+      "publishedAt": "2026-10-14T00:00:00+00:00",
+      "sourceId": "bis",
+      "sourceName": "国际清算银行新闻稿",
+      "task": "宏观、金融与支付",
+      "status": "待核验"
+    },
+    {
+      "id": "200a5d3dd39c6bfb7a20",
+      "title": "The EU’s next chapter in AI is agentic",
+      "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+      "publishedAt": "2026-10-14T00:00:00+00:00",
+      "sourceId": "openai",
+      "sourceName": "OpenAI 官方动态",
+      "task": "AI 基础模型与智能体",
+      "status": "待核验"
+    },
+    {
+      "id": "ca688a27006cdc18bac0",
+      "title": "Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261013a.htm",
+      "publishedAt": "2026-10-13T18:00:00+00:00",
+      "sourceId": "fed",
+      "sourceName": "美联储新闻稿",
+      "task": "宏观与金融政策",
+      "status": "待核验"
+    },
+    {
+      "id": "53911f98c21c784fce1a",
+      "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+      "publishedAt": "2026-10-13T17:05:48+00:00",
+      "sourceId": "huggingface",
+      "sourceName": "Hugging Face 官方博客",
+      "task": "开源模型与研究方法",
+      "status": "待核验"
+    },
+    {
+      "id": "8bb1da51925f69396745",
+      "title": "All Systems Go: Global PC App Ecosystem Ready for NVIDIA RTX Spark",
+      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/",
+      "publishedAt": "2026-10-13T12:00:49+00:00",
+      "sourceId": "nvidia",
+      "sourceName": "NVIDIA 官方博客",
+      "task": "算力、机器人与产业应用",
+      "status": "待核验"
+    },
+    {
+      "id": "8d45898e533e591d4241",
+      "title": "Higgsfield takes AI video from 1 minute to over 10",
+      "url": "https://openai.com/index/higgsfield-longer-videos-voice",
+      "publishedAt": "2026-10-13T12:00:00+00:00",
+      "sourceId": "openai",
+      "sourceName": "OpenAI 官方动态",
+      "task": "AI 基础模型与智能体",
+      "status": "待核验"
+    },
+    {
+      "id": "293b85c97d55fe8c4e9e",
+      "title": "NVIDIA Announces New Investments in France’s Startups",
+      "url": "https://blogs.nvidia.com/blog/france-ecosystem-agentic-computing/",
+      "publishedAt": "2026-10-13T05:00:31+00:00",
+      "sourceId": "nvidia",
+      "sourceName": "NVIDIA 官方博客",
+      "task": "算力、机器人与产业应用",
+      "status": "待核验"
+    },
+    {
+      "id": "0765f367a2766953580e",
+      "title": "Basel Committee finds Australia, Japan, Korea, Switzerland compliant, and Canada, United Kingdom largely compliant with its leverage ratio framework",
+      "url": "https://www.bis.org/media-releases/20261013-basel-committee-finds-australia-japan-korea-switzerland-compliant-and-canada-united-kingdom",
+      "publishedAt": "2026-10-13T00:00:00+00:00",
+      "sourceId": "bis",
+      "sourceName": "国际清算银行新闻稿",
+      "task": "宏观、金融与支付",
+      "status": "待核验"
+    },
+    {
+      "id": "cb1d8044b50f43a24e9c",
+      "title": "OCP Global Summit: Amid Ecosystem Adoption, NVIDIA Opens Vera Rubin Architecture to Help Scale AI Factories Worldwide",
+      "url": "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/",
+      "publishedAt": "2026-10-12T15:00:25+00:00",
+      "sourceId": "nvidia",
+      "sourceName": "NVIDIA 官方博客",
+      "task": "算力、机器人与产业应用",
+      "status": "待核验"
+    }
+  ],
+  "sources": [
+    {
+      "id": "openai",
+      "name": "OpenAI 官方动态",
+      "ok": true,
+      "count": 11,
+      "skipped": 0
+    },
+    {
+      "id": "nvidia",
+      "name": "NVIDIA 官方博客",
+      "ok": true,
+      "count": 10,
+      "skipped": 0
+    },
+    {
+      "id": "huggingface",
+      "name": "Hugging Face 官方博客",
+      "ok": true,
+      "count": 7,
+      "skipped": 0
+    },
+    {
+      "id": "bis",
+      "name": "国际清算银行新闻稿",
+      "ok": true,
+      "count": 3,
+      "skipped": 0
+    },
+    {
+      "id": "fed",
+      "name": "美联储新闻稿",
+      "ok": true,
+      "count": 2,
+      "skipped": 0
+    }
+  ],
+  "coverageGaps": [
+    "国内外 AI、具身智能、VLA 与 WAM：需要搜索并阅读原文；RSS 未覆盖这些来源，不能据此判定本周没有进展。",
+    "中国产业、统计与政策：由周报研究核验，不用海外 RSS 代替国内覆盖。",
+    "投资、创业与职业成长：按 UPDATE_GUIDE.md 综合研判，保留验证指标与反面证据，不自动生成投资结论。"
+  ]
+}

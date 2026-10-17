@@ -1,15 +1,45 @@
 {
   "format": 1,
-  "generatedAt": "2026-10-16T12:15:14.586485+00:00",
+  "generatedAt": "2026-10-17T04:56:09.687734+00:00",
   "start": "2026-10-11",
-  "end": "2026-10-16",
+  "end": "2026-10-17",
   "status": "ok",
   "items": [
+    {
+      "id": "9732b2763df5a67ab945",
+      "title": "How Itaú is building generative AI for its entire customer base",
+      "url": "https://openai.com/index/itau-generative-ai",
+      "publishedAt": "2026-10-16T19:00:00+00:00",
+      "sourceId": "openai",
+      "sourceName": "OpenAI 官方动态",
+      "task": "AI 基础模型与智能体",
+      "status": "待核验"
+    },
+    {
+      "id": "e2834c74f4065e96c922",
+      "title": "Federal Reserve Board announces termination of enforcement actions with Gardner Bancshares, Inc. and Small Business Bank",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261016a.htm",
+      "publishedAt": "2026-10-16T15:00:00+00:00",
+      "sourceId": "fed",
+      "sourceName": "美联储新闻稿",
+      "task": "宏观与金融政策",
+      "status": "待核验"
+    },
     {
       "id": "138e9b7e7d9747243aa5",
       "title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
       "url": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
       "publishedAt": "2026-10-16T01:44:47+00:00",
+      "sourceId": "huggingface",
+      "sourceName": "Hugging Face 官方博客",
+      "task": "开源模型与研究方法",
+      "status": "待核验"
+    },
+    {
+      "id": "c9a6184923cc1a5837b4",
+      "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
+      "url": "https://huggingface.co/blog/reflection-beam",
+      "publishedAt": "2026-10-16T00:00:00+00:00",
       "sourceId": "huggingface",
       "sourceName": "Hugging Face 官方博客",
       "task": "开源模型与研究方法",
@@ -23,6 +53,16 @@
       "sourceId": "bis",
       "sourceName": "国际清算银行新闻稿",
       "task": "宏观、金融与支付",
+      "status": "待核验"
+    },
+    {
+      "id": "9e63539289a31c8631b6",
+      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+      "publishedAt": "2026-10-16T00:00:00+00:00",
+      "sourceId": "openai",
+      "sourceName": "OpenAI 官方动态",
+      "task": "AI 基础模型与智能体",
       "status": "待核验"
     },
     {
@@ -301,7 +341,7 @@
       "id": "openai",
       "name": "OpenAI 官方动态",
       "ok": true,
-      "count": 9,
+      "count": 11,
       "skipped": 0
     },
     {
@@ -315,7 +355,7 @@
       "id": "huggingface",
       "name": "Hugging Face 官方博客",
       "ok": true,
-      "count": 6,
+      "count": 7,
       "skipped": 0
     },
     {
@@ -329,7 +369,7 @@
       "id": "fed",
       "name": "美联储新闻稿",
       "ok": true,
-      "count": 1,
+      "count": 2,
       "skipped": 0
     }
   ],
