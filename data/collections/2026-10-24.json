@@ -1,0 +1,541 @@
+{
+  "format": 1,
+  "generatedAt": "2026-10-24T04:58:14.098105+00:00",
+  "start": "2026-10-18",
+  "end": "2026-10-24",
+  "status": "ok",
+  "items": [
+    {
+      "id": "ee4c22366ef7e7abd786",
+      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+      "publishedAt": "2026-10-23T17:00:00+00:00",
+      "sourceId": "openai",
+      "sourceName": "OpenAI 官方动态",
+      "task": "AI 基础模型与智能体",
+      "status": "待核验"
+    },
+    {
+      "id": "5d794c3788a3a4be0d42",
+      "title": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
+      "url": "https://huggingface.co/blog/allenai/litpivot",
+      "publishedAt": "2026-10-23T16:15:50+00:00",
+      "sourceId": "huggingface",
+      "sourceName": "Hugging Face 官方博客",
+      "task": "开源模型与研究方法",
+      "status": "待核验"
+    },
+    {
+      "id": "f8c156dba7886826388b",
+      "title": "Securing our frontier model training environment",
+      "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+      "publishedAt": "2026-10-23T10:00:00+00:00",
+      "sourceId": "openai",
+      "sourceName": "OpenAI 官方动态",
+      "task": "AI 基础模型与智能体",
+      "status": "待核验"
+    },
+    {
+      "id": "f07d0bb3b14ff2bf4391",
+      "title": "Kazakhstan Expands Compute for Its AI Future",
+      "url": "https://blogs.nvidia.com/blog/kazakhstan-ai-compute-ecosystem/",
+      "publishedAt": "2026-10-23T02:00:13+00:00",
+      "sourceId": "nvidia",
+      "sourceName": "NVIDIA 官方博客",
+      "task": "算力、机器人与产业应用",
+      "status": "待核验"
+    },
+    {
+      "id": "2b3f616d26d343fed778",
+      "title": "Does Your Model Run on AWS Trainium? Look It Up",
+      "url": "https://huggingface.co/blog/torch-neuronx-model-support",
+      "publishedAt": "2026-10-23T00:00:00+00:00",
+      "sourceId": "huggingface",
+      "sourceName": "Hugging Face 官方博客",
+      "task": "开源模型与研究方法",
+      "status": "待核验"
+    },
+    {
+      "id": "1a543055a02f9816518c",
+      "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+      "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+      "publishedAt": "2026-10-23T00:00:00+00:00",
+      "sourceId": "openai",
+      "sourceName": "OpenAI 官方动态",
+      "task": "AI 基础模型与智能体",
+      "status": "待核验"
+    },
+    {
+      "id": "51888f116f5b083740bc",
+      "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+      "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+      "publishedAt": "2026-10-22T22:24:34+00:00",
+      "sourceId": "huggingface",
+      "sourceName": "Hugging Face 官方博客",
+      "task": "开源模型与研究方法",
+      "status": "待核验"
+    },
+    {
+      "id": "891b7e0bbf66f86d27b7",
+      "title": "Build more responsive apps with the Decisions API",
+      "url": "https://openai.com/index/decisions-api",
+      "publishedAt": "2026-10-22T19:00:00+00:00",
+      "sourceId": "openai",
+      "sourceName": "OpenAI 官方动态",
+      "task": "AI 基础模型与智能体",
+      "status": "待核验"
+    },
+    {
+      "id": "af6b159eb6ea2f663c90",
+      "title": "NVIDIA Unveils Minerva to Bring End-to-End Observability for AI Factories",
+      "url": "https://blogs.nvidia.com/blog/minerva-platform-infrastructure/",
+      "publishedAt": "2026-10-22T15:00:02+00:00",
+      "sourceId": "nvidia",
+      "sourceName": "NVIDIA 官方博客",
+      "task": "算力、机器人与产业应用",
+      "status": "待核验"
+    },
+    {
+      "id": "c3c5d14bfc3aa83f897a",
+      "title": "Cloud Deployment Incoming: ‘Call of Duty: Modern Warfare 4’ Arrives on GeForce NOW",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-call-of-duty-modern-warfare-4/",
+      "publishedAt": "2026-10-22T13:00:20+00:00",
+      "sourceId": "nvidia",
+      "sourceName": "NVIDIA 官方博客",
+      "task": "算力、机器人与产业应用",
+      "status": "待核验"
+    },
+    {
+      "id": "0e5fad3ca5f8a881acf7",
+      "title": "Ensemble forecasting with IBM Granite time-series models",
+      "url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
+      "publishedAt": "2026-10-22T07:51:31+00:00",
+      "sourceId": "huggingface",
+      "sourceName": "Hugging Face 官方博客",
+      "task": "开源模型与研究方法",
+      "status": "待核验"
+    },
+    {
+      "id": "6400feb681472530a689",
+      "title": "What FDE means at OpenAI",
+      "url": "https://openai.com/index/forward-deployed-engineering-means",
+      "publishedAt": "2026-10-22T06:00:00+00:00",
+      "sourceId": "openai",
+      "sourceName": "OpenAI 官方动态",
+      "task": "AI 基础模型与智能体",
+      "status": "待核验"
+    },
+    {
+      "id": "4ab186bcd5d93e27a7a9",
+      "title": "Leading European Financial Services Organizations Embrace Open Models to Build Proprietary Intelligence",
+      "url": "https://blogs.nvidia.com/blog/european-financial-services-organizations-open-models-proprietary-intelligence/",
+      "publishedAt": "2026-10-22T05:00:56+00:00",
+      "sourceId": "nvidia",
+      "sourceName": "NVIDIA 官方博客",
+      "task": "算力、机器人与产业应用",
+      "status": "待核验"
+    },
+    {
+      "id": "f8df91dc14194fe527ef",
+      "title": "NVIDIA Cosmos Opens New Tools to Train, Evaluate and Deploy World Models",
+      "url": "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models/",
+      "publishedAt": "2026-10-22T05:00:27+00:00",
+      "sourceId": "nvidia",
+      "sourceName": "NVIDIA 官方博客",
+      "task": "算力、机器人与产业应用",
+      "status": "待核验"
+    },
+    {
+      "id": "6f92d29565569592ae8a",
+      "title": "How Companies Are Using NVIDIA DSX to Break the Power Bottleneck",
+      "url": "https://blogs.nvidia.com/blog/dsx-power/",
+      "publishedAt": "2026-10-22T05:00:25+00:00",
+      "sourceId": "nvidia",
+      "sourceName": "NVIDIA 官方博客",
+      "task": "算力、机器人与产业应用",
+      "status": "待核验"
+    },
+    {
+      "id": "13b603cf56b699869be4",
+      "title": "NVIDIA Transforms European Retail, From Digital Discovery to Physical Operations",
+      "url": "https://blogs.nvidia.com/blog/european-retail-open-models-robotics/",
+      "publishedAt": "2026-10-22T05:00:23+00:00",
+      "sourceId": "nvidia",
+      "sourceName": "NVIDIA 官方博客",
+      "task": "算力、机器人与产业应用",
+      "status": "待核验"
+    },
+    {
+      "id": "054347e9fabbae641e57",
+      "title": "Pioneers Across Europe Deploy NVIDIA Earth-2 Open Models to Power Real-World Weather and Climate Prediction",
+      "url": "https://blogs.nvidia.com/blog/europe-earth-2-open-models-weather-climate-prediction/",
+      "publishedAt": "2026-10-22T05:00:19+00:00",
+      "sourceId": "nvidia",
+      "sourceName": "NVIDIA 官方博客",
+      "task": "算力、机器人与产业应用",
+      "status": "待核验"
+    },
+    {
+      "id": "e6667a5dd8d4716e2a81",
+      "title": "NVIDIA Open Models Power a New Wave of European Public Sector Projects",
+      "url": "https://blogs.nvidia.com/blog/european-public-sector-open-models/",
+      "publishedAt": "2026-10-22T05:00:02+00:00",
+      "sourceId": "nvidia",
+      "sourceName": "NVIDIA 官方博客",
+      "task": "算力、机器人与产业应用",
+      "status": "待核验"
+    },
+    {
+      "id": "eda525050cea8fce4b13",
+      "title": "Uber brings ChatGPT Work to all employees with OpenAI",
+      "url": "https://openai.com/index/uber-chatgpt-work-rollout",
+      "publishedAt": "2026-10-22T00:00:00+00:00",
+      "sourceId": "openai",
+      "sourceName": "OpenAI 官方动态",
+      "task": "AI 基础模型与智能体",
+      "status": "待核验"
+    },
+    {
+      "id": "3f1a11956436b1673800",
+      "title": "Broad access through consistent standards",
+      "url": "https://openai.com/index/broad-access-through-consistent-standards",
+      "publishedAt": "2026-10-21T21:00:00+00:00",
+      "sourceId": "openai",
+      "sourceName": "OpenAI 官方动态",
+      "task": "AI 基础模型与智能体",
+      "status": "待核验"
+    },
+    {
+      "id": "94a5f6526eada9bc0f52",
+      "title": "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required",
+      "url": "https://huggingface.co/blog/nvidia/kumo-relational",
+      "publishedAt": "2026-10-21T18:26:30+00:00",
+      "sourceId": "huggingface",
+      "sourceName": "Hugging Face 官方博客",
+      "task": "开源模型与研究方法",
+      "status": "待核验"
+    },
+    {
+      "id": "40a01666d562060bfdf9",
+      "title": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
+      "url": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
+      "publishedAt": "2026-10-21T17:35:36+00:00",
+      "sourceId": "huggingface",
+      "sourceName": "Hugging Face 官方博客",
+      "task": "开源模型与研究方法",
+      "status": "待核验"
+    },
+    {
+      "id": "39cad894cdd240fbe2db",
+      "title": "How AT&T is rethinking in-house legal work with OpenAI",
+      "url": "https://openai.com/index/att-legal",
+      "publishedAt": "2026-10-21T17:00:00+00:00",
+      "sourceId": "openai",
+      "sourceName": "OpenAI 官方动态",
+      "task": "AI 基础模型与智能体",
+      "status": "待核验"
+    },
+    {
+      "id": "5b4e08461387ba3b4483",
+      "title": "Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.",
+      "url": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
+      "publishedAt": "2026-10-21T16:04:43+00:00",
+      "sourceId": "huggingface",
+      "sourceName": "Hugging Face 官方博客",
+      "task": "开源模型与研究方法",
+      "status": "待核验"
+    },
+    {
+      "id": "c2ed162a157709f5cb47",
+      "title": "Granite Speech 5.0: Transcribe, Translate, and Attribute more Accurately and Faster",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-speech-5",
+      "publishedAt": "2026-10-21T14:58:18+00:00",
+      "sourceId": "huggingface",
+      "sourceName": "Hugging Face 官方博客",
+      "task": "开源模型与研究方法",
+      "status": "待核验"
+    },
+    {
+      "id": "b1215e1aefc04c61e203",
+      "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
+      "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+      "publishedAt": "2026-10-21T13:00:00+00:00",
+      "sourceId": "openai",
+      "sourceName": "OpenAI 官方动态",
+      "task": "AI 基础模型与智能体",
+      "status": "待核验"
+    },
+    {
+      "id": "95dedf578de78f3ec264",
+      "title": "OpenAI models are coming to Google Cloud",
+      "url": "https://openai.com/index/openai-models-google-cloud",
+      "publishedAt": "2026-10-21T12:00:00+00:00",
+      "sourceId": "openai",
+      "sourceName": "OpenAI 官方动态",
+      "task": "AI 基础模型与智能体",
+      "status": "待核验"
+    },
+    {
+      "id": "8722385c6c33a84607c3",
+      "title": "Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents",
+      "url": "https://blogs.nvidia.com/blog/local-ai-gtc-rtx-dgx-spark-station-sync/",
+      "publishedAt": "2026-10-21T10:50:37+00:00",
+      "sourceId": "nvidia",
+      "sourceName": "NVIDIA 官方博客",
+      "task": "算力、机器人与产业应用",
+      "status": "待核验"
+    },
+    {
+      "id": "12c1cb38a75e4a7b39f0",
+      "title": "Google Cloud and NVIDIA Announce General Availability of NVIDIA Vera Rubin Infrastructure",
+      "url": "https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure/",
+      "publishedAt": "2026-10-21T10:45:17+00:00",
+      "sourceId": "nvidia",
+      "sourceName": "NVIDIA 官方博客",
+      "task": "算力、机器人与产业应用",
+      "status": "待核验"
+    },
+    {
+      "id": "804d4d957ec690829705",
+      "title": "NVIDIA Cloud Partners Scale Across Europe — Sovereign, Open and Built for Safe AI Agents",
+      "url": "https://blogs.nvidia.com/blog/cloud-partners-europe-sovereign-safety-open-agents/",
+      "publishedAt": "2026-10-21T10:30:41+00:00",
+      "sourceId": "nvidia",
+      "sourceName": "NVIDIA 官方博客",
+      "task": "算力、机器人与产业应用",
+      "status": "待核验"
+    },
+    {
+      "id": "86185ff09c24ae9f959f",
+      "title": "Europe’s Industrial Leaders Reinvent Engineering and Manufacturing With NVIDIA",
+      "url": "https://blogs.nvidia.com/blog/europe-industrial-leaders-engineering-manufacturing/",
+      "publishedAt": "2026-10-21T10:30:40+00:00",
+      "sourceId": "nvidia",
+      "sourceName": "NVIDIA 官方博客",
+      "task": "算力、机器人与产业应用",
+      "status": "待核验"
+    },
+    {
+      "id": "b2b697f42a42e82a6010",
+      "title": "NVIDIA cuDSS Now Generally Available to Accelerate Engineering and Scientific Simulations",
+      "url": "https://blogs.nvidia.com/blog/cudss-generally-available-engineering-scientific-simulation/",
+      "publishedAt": "2026-10-21T10:30:25+00:00",
+      "sourceId": "nvidia",
+      "sourceName": "NVIDIA 官方博客",
+      "task": "算力、机器人与产业应用",
+      "status": "待核验"
+    },
+    {
+      "id": "f2380296be9197f11910",
+      "title": "NVIDIA Confidential Computing Expands, Enabling Frontier Model Builders to Securely Scale Across Global Infrastructure",
+      "url": "https://blogs.nvidia.com/blog/confidential-computing-model-builders-infrastructure/",
+      "publishedAt": "2026-10-21T10:30:02+00:00",
+      "sourceId": "nvidia",
+      "sourceName": "NVIDIA 官方博客",
+      "task": "算力、机器人与产业应用",
+      "status": "待核验"
+    },
+    {
+      "id": "09d942bb1aad0976da41",
+      "title": "NVIDIA Agent Toolkit Expands, Grounding Enterprise Agents in Company Data",
+      "url": "https://blogs.nvidia.com/blog/enterprise-platforms-agent-toolkit/",
+      "publishedAt": "2026-10-21T10:10:01+00:00",
+      "sourceId": "nvidia",
+      "sourceName": "NVIDIA 官方博客",
+      "task": "算力、机器人与产业应用",
+      "status": "待核验"
+    },
+    {
+      "id": "d46c8940730c093aa2d0",
+      "title": "NVIDIA Open Models Advance Europe’s Sovereign Intelligence Across Industries",
+      "url": "https://blogs.nvidia.com/blog/open-models-europe-industry/",
+      "publishedAt": "2026-10-21T10:00:07+00:00",
+      "sourceId": "nvidia",
+      "sourceName": "NVIDIA 官方博客",
+      "task": "算力、机器人与产业应用",
+      "status": "待核验"
+    },
+    {
+      "id": "db3718abbfc4c7d4e283",
+      "title": "GTC Berlin 2026: Live Updates From NVIDIA CEO Jensen Huang’s Keynote",
+      "url": "https://blogs.nvidia.com/blog/gtc-berlin-2026-keynote/",
+      "publishedAt": "2026-10-21T09:30:16+00:00",
+      "sourceId": "nvidia",
+      "sourceName": "NVIDIA 官方博客",
+      "task": "算力、机器人与产业应用",
+      "status": "待核验"
+    },
+    {
+      "id": "ea92da5c121ecb452702",
+      "title": "How we built ChatGPT’s novel ad stack for user trust and relevance",
+      "url": "https://openai.com/index/building-chatgpt-ad-stack",
+      "publishedAt": "2026-10-21T07:00:00+00:00",
+      "sourceId": "openai",
+      "sourceName": "OpenAI 官方动态",
+      "task": "AI 基础模型与智能体",
+      "status": "待核验"
+    },
+    {
+      "id": "de9db6f384cbc7887755",
+      "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
+      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+      "publishedAt": "2026-10-21T07:00:00+00:00",
+      "sourceId": "openai",
+      "sourceName": "OpenAI 官方动态",
+      "task": "AI 基础模型与智能体",
+      "status": "待核验"
+    },
+    {
+      "id": "64ddfb139fec8a1cb459",
+      "title": "Using thousands of AI agents to uncover new leads in biological data",
+      "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
+      "publishedAt": "2026-10-21T04:50:00+00:00",
+      "sourceId": "openai",
+      "sourceName": "OpenAI 官方动态",
+      "task": "AI 基础模型与智能体",
+      "status": "待核验"
+    },
+    {
+      "id": "e270f5ba4688033de075",
+      "title": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
+      "url": "https://openai.com/index/empowering-cyber-defenders",
+      "publishedAt": "2026-10-21T00:00:00+00:00",
+      "sourceId": "openai",
+      "sourceName": "OpenAI 官方动态",
+      "task": "AI 基础模型与智能体",
+      "status": "待核验"
+    },
+    {
+      "id": "3fe372fb2e8166f0e814",
+      "title": "Cloudflare links vulnerability discovery to defense with OpenAI",
+      "url": "https://openai.com/index/cloudflare-cyber",
+      "publishedAt": "2026-10-21T00:00:00+00:00",
+      "sourceId": "openai",
+      "sourceName": "OpenAI 官方动态",
+      "task": "AI 基础模型与智能体",
+      "status": "待核验"
+    },
+    {
+      "id": "1725d137aa3debc0d8ae",
+      "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
+      "url": "https://openai.com/index/ted-taylor-restaurant",
+      "publishedAt": "2026-10-20T10:00:00+00:00",
+      "sourceId": "openai",
+      "sourceName": "OpenAI 官方动态",
+      "task": "AI 基础模型与智能体",
+      "status": "待核验"
+    },
+    {
+      "id": "aa8847d44cbae3328f3c",
+      "title": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
+      "url": "https://openai.com/index/terminal-x",
+      "publishedAt": "2026-10-20T07:00:00+00:00",
+      "sourceId": "openai",
+      "sourceName": "OpenAI 官方动态",
+      "task": "AI 基础模型与智能体",
+      "status": "待核验"
+    },
+    {
+      "id": "c2b4b68d7e0027f0e436",
+      "title": "MPS in PyTorch 2.15",
+      "url": "https://huggingface.co/blog/mps-pytorch-2-15",
+      "publishedAt": "2026-10-20T00:00:00+00:00",
+      "sourceId": "huggingface",
+      "sourceName": "Hugging Face 官方博客",
+      "task": "开源模型与研究方法",
+      "status": "待核验"
+    },
+    {
+      "id": "41fb25a47d12d204a957",
+      "title": "AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms",
+      "url": "https://huggingface.co/blog/anylanguagemodel-1-0",
+      "publishedAt": "2026-10-20T00:00:00+00:00",
+      "sourceId": "huggingface",
+      "sourceName": "Hugging Face 官方博客",
+      "task": "开源模型与研究方法",
+      "status": "待核验"
+    },
+    {
+      "id": "39e60f901a735303e0c0",
+      "title": "Hugging Face ❤️ TorchTPU: TPUs, Natively",
+      "url": "https://huggingface.co/blog/hf-torchtpu",
+      "publishedAt": "2026-10-20T00:00:00+00:00",
+      "sourceId": "huggingface",
+      "sourceName": "Hugging Face 官方博客",
+      "task": "开源模型与研究方法",
+      "status": "待核验"
+    },
+    {
+      "id": "1cfb6291fa158d05a5ba",
+      "title": "OpenAI acquires Orchestra Bio",
+      "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+      "publishedAt": "2026-10-20T00:00:00+00:00",
+      "sourceId": "openai",
+      "sourceName": "OpenAI 官方动态",
+      "task": "AI 基础模型与智能体",
+      "status": "待核验"
+    },
+    {
+      "id": "1dbe22633003a2af4fdd",
+      "title": "Advancing coding in low‑resource programming languages",
+      "url": "https://openai.com/index/low-resource-programming-languages",
+      "publishedAt": "2026-10-19T12:00:00+00:00",
+      "sourceId": "openai",
+      "sourceName": "OpenAI 官方动态",
+      "task": "AI 基础模型与智能体",
+      "status": "待核验"
+    },
+    {
+      "id": "5c52b7d34becd1ccf770",
+      "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
+      "url": "https://huggingface.co/blog/hf-torchneuron",
+      "publishedAt": "2026-10-19T00:00:00+00:00",
+      "sourceId": "huggingface",
+      "sourceName": "Hugging Face 官方博客",
+      "task": "开源模型与研究方法",
+      "status": "待核验"
+    }
+  ],
+  "sources": [
+    {
+      "id": "openai",
+      "name": "OpenAI 官方动态",
+      "ok": true,
+      "count": 19,
+      "skipped": 0
+    },
+    {
+      "id": "nvidia",
+      "name": "NVIDIA 官方博客",
+      "ok": true,
+      "count": 18,
+      "skipped": 0
+    },
+    {
+      "id": "huggingface",
+      "name": "Hugging Face 官方博客",
+      "ok": true,
+      "count": 12,
+      "skipped": 0
+    },
+    {
+      "id": "bis",
+      "name": "国际清算银行新闻稿",
+      "ok": true,
+      "count": 0,
+      "skipped": 0
+    },
+    {
+      "id": "fed",
+      "name": "美联储新闻稿",
+      "ok": true,
+      "count": 0,
+      "skipped": 0
+    }
+  ],
+  "coverageGaps": [
+    "国内外 AI、具身智能、VLA 与 WAM：需要搜索并阅读原文；RSS 未覆盖这些来源，不能据此判定本周没有进展。",
+    "中国产业、统计与政策：由周报研究核验，不用海外 RSS 代替国内覆盖。",
+    "投资、创业与职业成长：按 UPDATE_GUIDE.md 综合研判，保留验证指标与反面证据，不自动生成投资结论。"
+  ]
+}
