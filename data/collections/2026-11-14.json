@@ -1,0 +1,501 @@
+{
+  "format": 1,
+  "generatedAt": "2026-11-14T06:57:37.839028+00:00",
+  "start": "2026-11-08",
+  "end": "2026-11-14",
+  "status": "ok",
+  "items": [
+    {
+      "id": "537d1229e28dcb2912c5",
+      "title": "Agencies extend comment period for proposed third-party risk management guidance",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261113a.htm",
+      "publishedAt": "2026-11-13T21:15:00+00:00",
+      "sourceId": "fed",
+      "sourceName": "美联储新闻稿",
+      "task": "宏观与金融政策",
+      "status": "待核验"
+    },
+    {
+      "id": "cdc8eef67bc55a0d0fa5",
+      "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+      "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+      "publishedAt": "2026-11-13T18:00:39+00:00",
+      "sourceId": "huggingface",
+      "sourceName": "Hugging Face 官方博客",
+      "task": "开源模型与研究方法",
+      "status": "待核验"
+    },
+    {
+      "id": "96c7f67bef86f8316048",
+      "title": "XYBench: Helping with the problem behind the question",
+      "url": "https://huggingface.co/blog/allenai/xybench",
+      "publishedAt": "2026-11-13T17:02:35+00:00",
+      "sourceId": "huggingface",
+      "sourceName": "Hugging Face 官方博客",
+      "task": "开源模型与研究方法",
+      "status": "待核验"
+    },
+    {
+      "id": "7d4d71d056da02862d0b",
+      "title": "Introducing ChatGPT Wallet",
+      "url": "https://openai.com/index/introducing-chatgpt-wallet",
+      "publishedAt": "2026-11-13T15:00:00+00:00",
+      "sourceId": "openai",
+      "sourceName": "OpenAI 官方动态",
+      "task": "AI 基础模型与智能体",
+      "status": "待核验"
+    },
+    {
+      "id": "6841e619fcd7e8d93702",
+      "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+      "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "publishedAt": "2026-11-13T14:05:22+00:00",
+      "sourceId": "huggingface",
+      "sourceName": "Hugging Face 官方博客",
+      "task": "开源模型与研究方法",
+      "status": "待核验"
+    },
+    {
+      "id": "a0730e6c360a165831b4",
+      "title": "How AI Is Helping Care Teams Get Patients the Right Care, Sooner",
+      "url": "https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams/",
+      "publishedAt": "2026-11-13T13:00:42+00:00",
+      "sourceId": "nvidia",
+      "sourceName": "NVIDIA 官方博客",
+      "task": "算力、机器人与产业应用",
+      "status": "待核验"
+    },
+    {
+      "id": "a99dfdd20d85acbbb850",
+      "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+      "url": "https://openai.com/business/customer-stories/shield",
+      "publishedAt": "2026-11-13T08:00:00+00:00",
+      "sourceId": "openai",
+      "sourceName": "OpenAI 官方动态",
+      "task": "AI 基础模型与智能体",
+      "status": "待核验"
+    },
+    {
+      "id": "67672a694e389b29af55",
+      "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+      "url": "https://openai.com/business/customer-stories/amplitude",
+      "publishedAt": "2026-11-12T20:00:00+00:00",
+      "sourceId": "openai",
+      "sourceName": "OpenAI 官方动态",
+      "task": "AI 基础模型与智能体",
+      "status": "待核验"
+    },
+    {
+      "id": "84ec87286cb35a64f463",
+      "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+      "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+      "publishedAt": "2026-11-12T19:07:35+00:00",
+      "sourceId": "huggingface",
+      "sourceName": "Hugging Face 官方博客",
+      "task": "开源模型与研究方法",
+      "status": "待核验"
+    },
+    {
+      "id": "1ee6867cdbb6f3c3818c",
+      "title": "Federal Reserve Board announces pricing, effective January 1, 2027, for payment services the Federal Reserve Banks provide to banks and credit unions, and changes to streamline and adjust their check services",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261112a.htm",
+      "publishedAt": "2026-11-12T18:30:00+00:00",
+      "sourceId": "fed",
+      "sourceName": "美联储新闻稿",
+      "task": "宏观与金融政策",
+      "status": "待核验"
+    },
+    {
+      "id": "87a784bdd6110f056713",
+      "title": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm",
+      "publishedAt": "2026-11-12T17:45:00+00:00",
+      "sourceId": "fed",
+      "sourceName": "美联储新闻稿",
+      "task": "宏观与金融政策",
+      "status": "待核验"
+    },
+    {
+      "id": "e589a1e1c99ea10e62c2",
+      "title": "Federal Reserve Board issues enforcement action with former employee of United Community Bank",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261112a.htm",
+      "publishedAt": "2026-11-12T16:00:00+00:00",
+      "sourceId": "fed",
+      "sourceName": "美联储新闻稿",
+      "task": "宏观与金融政策",
+      "status": "待核验"
+    },
+    {
+      "id": "ed8dc20742e8870df2b8",
+      "title": "A New Dawn in the Cloud: ‘Warhammer 40,000: Dawn of War IV’ Is Coming to GeForce NOW",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-warhammer-dawn-of-war-iv-coming/",
+      "publishedAt": "2026-11-12T14:00:59+00:00",
+      "sourceId": "nvidia",
+      "sourceName": "NVIDIA 官方博客",
+      "task": "算力、机器人与产业应用",
+      "status": "待核验"
+    },
+    {
+      "id": "b9840fd67063a36a400d",
+      "title": "Gondola doubles revenue as its team builds more with Codex",
+      "url": "https://openai.com/business/customer-stories/gondola",
+      "publishedAt": "2026-11-12T12:00:00+00:00",
+      "sourceId": "openai",
+      "sourceName": "OpenAI 官方动态",
+      "task": "AI 基础模型与智能体",
+      "status": "待核验"
+    },
+    {
+      "id": "4922ca6fb0dd92994c34",
+      "title": "Holiday Extras is rethinking what it can build with Codex",
+      "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
+      "publishedAt": "2026-11-12T09:30:00+00:00",
+      "sourceId": "openai",
+      "sourceName": "OpenAI 官方动态",
+      "task": "AI 基础模型与智能体",
+      "status": "待核验"
+    },
+    {
+      "id": "d7c1da8cb7dc41da688b",
+      "title": "Supporting research on AI and children’s safety",
+      "url": "https://openai.com/index/children-first-declaration",
+      "publishedAt": "2026-11-12T00:00:00+00:00",
+      "sourceId": "openai",
+      "sourceName": "OpenAI 官方动态",
+      "task": "AI 基础模型与智能体",
+      "status": "待核验"
+    },
+    {
+      "id": "cbda9238a3684b28e47a",
+      "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
+      "url": "https://huggingface.co/blog/3d-lora-finetuning",
+      "publishedAt": "2026-11-12T00:00:00+00:00",
+      "sourceId": "huggingface",
+      "sourceName": "Hugging Face 官方博客",
+      "task": "开源模型与研究方法",
+      "status": "待核验"
+    },
+    {
+      "id": "65b96c238445cdedc96b",
+      "title": "Gilbert + Tobin rethinks the business of law with AI",
+      "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
+      "publishedAt": "2026-11-12T00:00:00+00:00",
+      "sourceId": "openai",
+      "sourceName": "OpenAI 官方动态",
+      "task": "AI 基础模型与智能体",
+      "status": "待核验"
+    },
+    {
+      "id": "ac94b61a25ade5edbf71",
+      "title": "ChatGPT Plus for veterans and servicemembers",
+      "url": "https://openai.com/index/chatgpt-plus-for-veterans",
+      "publishedAt": "2026-11-11T08:00:00+00:00",
+      "sourceId": "openai",
+      "sourceName": "OpenAI 官方动态",
+      "task": "AI 基础模型与智能体",
+      "status": "待核验"
+    },
+    {
+      "id": "19b4fcb1faac9c9bdbcc",
+      "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+      "url": "https://huggingface.co/blog/qvac/botpsy",
+      "publishedAt": "2026-11-11T05:01:16+00:00",
+      "sourceId": "huggingface",
+      "sourceName": "Hugging Face 官方博客",
+      "task": "开源模型与研究方法",
+      "status": "待核验"
+    },
+    {
+      "id": "0a9ebdb63db3687d3463",
+      "title": "How AI Helps Recyclers Turn Mixed Waste Into Reusable Material",
+      "url": "https://blogs.nvidia.com/blog/ai-recycling-startups/",
+      "publishedAt": "2026-11-11T03:00:20+00:00",
+      "sourceId": "nvidia",
+      "sourceName": "NVIDIA 官方博客",
+      "task": "算力、机器人与产业应用",
+      "status": "待核验"
+    },
+    {
+      "id": "55ff14dc4213127df72a",
+      "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
+      "url": "https://openai.com/index/jiostar-vijay-seshadri",
+      "publishedAt": "2026-11-11T00:00:00+00:00",
+      "sourceId": "openai",
+      "sourceName": "OpenAI 官方动态",
+      "task": "AI 基础模型与智能体",
+      "status": "待核验"
+    },
+    {
+      "id": "11568aa8dfcf9a3c0750",
+      "title": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
+      "url": "https://huggingface.co/blog/token-pooling",
+      "publishedAt": "2026-11-11T00:00:00+00:00",
+      "sourceId": "huggingface",
+      "sourceName": "Hugging Face 官方博客",
+      "task": "开源模型与研究方法",
+      "status": "待核验"
+    },
+    {
+      "id": "9ccf20ad200fc0ba5e4f",
+      "title": "NVIDIA Expands Open Source Commitment With OpenShell Contribution and New AI Infrastructure",
+      "url": "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure/",
+      "publishedAt": "2026-11-10T16:00:03+00:00",
+      "sourceId": "nvidia",
+      "sourceName": "NVIDIA 官方博客",
+      "task": "算力、机器人与产业应用",
+      "status": "待核验"
+    },
+    {
+      "id": "0f0020abcf733229d29f",
+      "title": "Helping caregivers use AI in everyday life",
+      "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+      "publishedAt": "2026-11-10T12:00:00+00:00",
+      "sourceId": "openai",
+      "sourceName": "OpenAI 官方动态",
+      "task": "AI 基础模型与智能体",
+      "status": "待核验"
+    },
+    {
+      "id": "991ad48e8559b2fefa9f",
+      "title": "Introducing Businesses in ChatGPT",
+      "url": "https://openai.com/index/introducing-businesses-chatgpt",
+      "publishedAt": "2026-11-10T10:00:00+00:00",
+      "sourceId": "openai",
+      "sourceName": "OpenAI 官方动态",
+      "task": "AI 基础模型与智能体",
+      "status": "待核验"
+    },
+    {
+      "id": "69d4d9d74efa01629a6c",
+      "title": "Closing the AI guidance gap in education",
+      "url": "https://openai.com/index/closing-ai-guidance-gap-education",
+      "publishedAt": "2026-11-10T09:00:00+00:00",
+      "sourceId": "openai",
+      "sourceName": "OpenAI 官方动态",
+      "task": "AI 基础模型与智能体",
+      "status": "待核验"
+    },
+    {
+      "id": "9092d5eb66f29547408d",
+      "title": "Singapore Airlines elevates travel & work with OpenAI technology",
+      "url": "https://openai.com/index/singapore-airlines-travel-work",
+      "publishedAt": "2026-11-10T08:00:00+00:00",
+      "sourceId": "openai",
+      "sourceName": "OpenAI 官方动态",
+      "task": "AI 基础模型与智能体",
+      "status": "待核验"
+    },
+    {
+      "id": "f3fc54cd1d78c100d666",
+      "title": "Work at the Frontier: AI’s effect on freelance work",
+      "url": "https://openai.com/index/ai-effect-on-freelance-work",
+      "publishedAt": "2026-11-10T07:00:00+00:00",
+      "sourceId": "openai",
+      "sourceName": "OpenAI 官方动态",
+      "task": "AI 基础模型与智能体",
+      "status": "待核验"
+    },
+    {
+      "id": "f68ff2001655f186fbc3",
+      "title": "Appointments to BIS global payments standard-setting body and Consultative Council for the Americas",
+      "url": "https://www.bis.org/media-releases/20261110-appointments-bis-global-payments-standard-setting-body-and-consultative-council-americas",
+      "publishedAt": "2026-11-10T00:00:00+00:00",
+      "sourceId": "bis",
+      "sourceName": "国际清算银行新闻稿",
+      "task": "宏观、金融与支付",
+      "status": "待核验"
+    },
+    {
+      "id": "cb93d68b445c05b0e3dc",
+      "title": "Pay for Hugging Face Hub with your Google Cloud Account",
+      "url": "https://huggingface.co/blog/hub-gcp-marketplace",
+      "publishedAt": "2026-11-10T00:00:00+00:00",
+      "sourceId": "huggingface",
+      "sourceName": "Hugging Face 官方博客",
+      "task": "开源模型与研究方法",
+      "status": "待核验"
+    },
+    {
+      "id": "5f3963726dbe36e6ccf9",
+      "title": "Decision Models in Hugging Face",
+      "url": "https://huggingface.co/blog/decision",
+      "publishedAt": "2026-11-10T00:00:00+00:00",
+      "sourceId": "huggingface",
+      "sourceName": "Hugging Face 官方博客",
+      "task": "开源模型与研究方法",
+      "status": "待核验"
+    },
+    {
+      "id": "37e4452e64c861cffe83",
+      "title": "Cogent and OpenAI build cyber defense factories for enterprises",
+      "url": "https://openai.com/index/cogent-security",
+      "publishedAt": "2026-11-10T00:00:00+00:00",
+      "sourceId": "openai",
+      "sourceName": "OpenAI 官方动态",
+      "task": "AI 基础模型与智能体",
+      "status": "待核验"
+    },
+    {
+      "id": "2bae0dc9f043ef959612",
+      "title": "Federal Reserve Board announces approval of two applications by Mutual Federal Bancorp, MHC, and MFB Bancorp, Inc.",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261109a.htm",
+      "publishedAt": "2026-11-09T21:00:00+00:00",
+      "sourceId": "fed",
+      "sourceName": "美联储新闻稿",
+      "task": "宏观与金融政策",
+      "status": "待核验"
+    },
+    {
+      "id": "caa9073cefb43725f1a5",
+      "title": "ChatGPT Enterprise now available in AWS Marketplace",
+      "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+      "publishedAt": "2026-11-09T19:00:00+00:00",
+      "sourceId": "openai",
+      "sourceName": "OpenAI 官方动态",
+      "task": "AI 基础模型与智能体",
+      "status": "待核验"
+    },
+    {
+      "id": "61e7ac7c7e624eb36dec",
+      "title": "Practice Makes Precise: At CoRL, NVIDIA and Partners Reveal How Robots Rehearse Delicate Work in Simulation",
+      "url": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/",
+      "publishedAt": "2026-11-09T14:00:01+00:00",
+      "sourceId": "nvidia",
+      "sourceName": "NVIDIA 官方博客",
+      "task": "算力、机器人与产业应用",
+      "status": "待核验"
+    },
+    {
+      "id": "952d2516af2e905436ad",
+      "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+      "url": "https://openai.com/index/control-room",
+      "publishedAt": "2026-11-09T13:00:00+00:00",
+      "sourceId": "openai",
+      "sourceName": "OpenAI 官方动态",
+      "task": "AI 基础模型与智能体",
+      "status": "待核验"
+    },
+    {
+      "id": "55d059b88c6c576a2f3d",
+      "title": "Your Experts Have Partners. There's HOPE for Keeping Them Together",
+      "url": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
+      "publishedAt": "2026-11-09T12:34:29+00:00",
+      "sourceId": "huggingface",
+      "sourceName": "Hugging Face 官方博客",
+      "task": "开源模型与研究方法",
+      "status": "待核验"
+    },
+    {
+      "id": "78a38ab1bb2e5e3a2eb9",
+      "title": "NVIDIA Announces New Planned Investments in Korean Startups at the MSIT-NVIDIA AI Startup Partnership Forum",
+      "url": "https://blogs.nvidia.com/blog/korean-startup-investments-msit/",
+      "publishedAt": "2026-11-09T08:00:53+00:00",
+      "sourceId": "nvidia",
+      "sourceName": "NVIDIA 官方博客",
+      "task": "算力、机器人与产业应用",
+      "status": "待核验"
+    },
+    {
+      "id": "2e34e84f0999c607fcd0",
+      "title": "Kuken Industries searches 70 years of drawings in minutes",
+      "url": "https://openai.com/index/kuken",
+      "publishedAt": "2026-11-09T08:00:00+00:00",
+      "sourceId": "openai",
+      "sourceName": "OpenAI 官方动态",
+      "task": "AI 基础模型与智能体",
+      "status": "待核验"
+    },
+    {
+      "id": "02e9abf47eaf3fa01f98",
+      "title": "CodeRabbit scales agentic software development and ships 20x more",
+      "url": "https://openai.com/index/coderabbit-codex-daybreak",
+      "publishedAt": "2026-11-09T08:00:00+00:00",
+      "sourceId": "openai",
+      "sourceName": "OpenAI 官方动态",
+      "task": "AI 基础模型与智能体",
+      "status": "待核验"
+    },
+    {
+      "id": "59b779471e81fefef54a",
+      "title": "Korea Advances Physical AI Across Industries With NVIDIA",
+      "url": "https://blogs.nvidia.com/blog/korea-physical-ai-ecosystem/",
+      "publishedAt": "2026-11-09T05:00:40+00:00",
+      "sourceId": "nvidia",
+      "sourceName": "NVIDIA 官方博客",
+      "task": "算力、机器人与产业应用",
+      "status": "待核验"
+    },
+    {
+      "id": "d7c73c4b9a79782fc5fe",
+      "title": "Korea’s AI Ecosystem Advances and Secures Agentic AI With NVIDIA",
+      "url": "https://blogs.nvidia.com/blog/korea-secure-agentic-ai/",
+      "publishedAt": "2026-11-09T05:00:39+00:00",
+      "sourceId": "nvidia",
+      "sourceName": "NVIDIA 官方博客",
+      "task": "算力、机器人与产业应用",
+      "status": "待核验"
+    },
+    {
+      "id": "51e504680490a66d88e4",
+      "title": "From Chips to Skills, NVIDIA and Korea Expand Sovereign AI Collaboration",
+      "url": "https://blogs.nvidia.com/blog/korea-sovereign-ai-collaboration/",
+      "publishedAt": "2026-11-09T05:00:04+00:00",
+      "sourceId": "nvidia",
+      "sourceName": "NVIDIA 官方博客",
+      "task": "算力、机器人与产业应用",
+      "status": "待核验"
+    },
+    {
+      "id": "1d980cecae4ce0aab063",
+      "title": "NVIDIA Dynamo Recipes Bring Korea’s Leading Open Models to Production",
+      "url": "https://blogs.nvidia.com/blog/nvidia-dynamo-korea-open-models/",
+      "publishedAt": "2026-11-09T05:00:00+00:00",
+      "sourceId": "nvidia",
+      "sourceName": "NVIDIA 官方博客",
+      "task": "算力、机器人与产业应用",
+      "status": "待核验"
+    }
+  ],
+  "sources": [
+    {
+      "id": "openai",
+      "name": "OpenAI 官方动态",
+      "ok": true,
+      "count": 19,
+      "skipped": 0
+    },
+    {
+      "id": "nvidia",
+      "name": "NVIDIA 官方博客",
+      "ok": true,
+      "count": 10,
+      "skipped": 0
+    },
+    {
+      "id": "huggingface",
+      "name": "Hugging Face 官方博客",
+      "ok": true,
+      "count": 10,
+      "skipped": 0
+    },
+    {
+      "id": "bis",
+      "name": "国际清算银行新闻稿",
+      "ok": true,
+      "count": 1,
+      "skipped": 0
+    },
+    {
+      "id": "fed",
+      "name": "美联储新闻稿",
+      "ok": true,
+      "count": 5,
+      "skipped": 0
+    }
+  ],
+  "coverageGaps": [
+    "国内外 AI、具身智能、VLA 与 WAM：需要搜索并阅读原文；RSS 未覆盖这些来源，不能据此判定本周没有进展。",
+    "中国产业、统计与政策：由周报研究核验，不用海外 RSS 代替国内覆盖。",
+    "投资、创业与职业成长：按 UPDATE_GUIDE.md 综合研判，保留验证指标与反面证据，不自动生成投资结论。"
+  ]
+}
