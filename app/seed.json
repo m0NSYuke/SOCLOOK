@@ -1,91 +1,50 @@
 {
-  "id": "2026-11-07",
-  "number": 5,
-  "title": "从会做演示到可验收：AI、能源与服务需求的新证据",
-  "subtitle": "11月1—7日｜国内外AI深读，兼顾投资研究、创业与职业成长；只把新证据写进本周。",
-  "start": "2026-11-01",
-  "end": "2026-11-07",
-  "generatedAt": "2026-11-07T17:03:47.631Z",
-  "lead": "观察员推论：AI机会正在从模型分数延伸到可验收的工作流。国内门店机器人试验与Hy4发布，分别推进真实任务和软件入口；开放机器人评测与实验数据基准则暴露泛化、证据解释的边界。能源财报、服务贸易和就业数据提醒我们：技术进展还须穿过客户需求、成本与现金回收，政策变化也需要等具体措施。",
+  "id": "2026-11-14",
+  "number": 6,
+  "title": "从真机适配到电力合同，AI 部署的条件更具体了",
+  "subtitle": "11月8—14日｜具身智能、软件与电力设施，以及就业、贸易和经营数据",
+  "start": "2026-11-08",
+  "end": "2026-11-14",
+  "generatedAt": "2026-11-14T17:07:44.366Z",
+  "lead": "观察员推论：本周值得研究的是每项能力进入实际流程后还需要付出的成本。GR00T 2 给出了目标本体的示范与微调条件，编程和集群工具扩展了部署选择，俄勒冈的电价方案明确了部分数据中心的供电责任。自由职业数据和跨境贸易统计也提示，预算或意向增长之后，要继续跟踪需要投入的工时以及实际兑现。",
   "takeaways": [
-    "智元新增24小时真实门店试验，但1730项任务与4台通过考核尚不能证明净省人工和盈利。",
-    "VLA/WAM深入研究先把泛化、长任务与失败归因做扎实；视频生成模型、动作策略和真实机器人需分开验证。",
-    "Hy4的产品上线、未来权重开放、内部评测和促销价格是不同证据，合格任务成本比token单价更有意义。",
-    "服务出口与美国就业各有结构差异；能源案例中利润增长而经营现金下降，避免由宏观或AI主题直接推导收益。",
-    "美国中期选举的媒体判定是政策情景入口，不等于最终认证或新规则生效。"
+    "GR00T 2 提供有条件的少样本真机结果，长任务成绩对起始场景和本体敏感。",
+    "GPU 副本就绪速度和数据中心供电条款分别约束日常运行与新增容量。",
+    "Upwork 样本里项目报价和工时的差异大于挂牌时薪差异，个人机会要按实际结算和投入时间重算。",
+    "台积电月报、中国价格分项和进博会意向成交提供三种不同的需求和经营证据。"
   ],
   "events": [
     {
-      "id": "agibot-store-trial-20261106",
-      "title": "智元从生产力主张走到24小时门店试验，尚缺成本与接管账本",
+      "id": "nvidia-gr00t2-corl-20261109",
+      "title": "GR00T 2 给出跨本体适配与接触任务的真机数据",
       "sector": "人工智能",
-      "region": "中国",
-      "date": "2026-11-03",
-      "published": "2026-11-06",
+      "region": "跨境",
+      "date": "2026-11-09",
+      "published": "2026-11-09",
       "kind": "已发生",
       "confidence": "一手确认",
       "stage": "早期信号",
       "horizon": "中期",
-      "fact": "智元11月6日官网新闻介绍：11月2日10时至3日10时，6台G2在上海一家营业中的便利店试验，合计完成1730项任务，4台通过最终表现考核。任务包含客服、取送商品、咖啡、早餐、补货及清洁。这些是公司披露的试验结果；4/6是机器人考核通过比例，不是单次任务成功率。",
-      "interpretation": "推论：机器人机会正进入流程协作与运营验收环节；有效产出必须扣除人工介入、等待、错误和维护。一次门店试验只能提高继续调查的价值。",
-      "investment": "推论：要求付费客户、续约和毛利证据，再判断服务模式。任务数量与直播观看人数不能转化为收入或估值。",
-      "business": "推论：从补货或取送等单环节试点，记录原流程工时、机器人合格产出、接管分钟与全周期成本，确认客户愿意为净收益付款。",
-      "career": "推论：重点学习多机器人调度、任务日志与失败归因；把感知、规划、动作、人工兜底分别测量。",
-      "watch": "任务分母、失败与重试、每小时人工介入、可用时长、维修与折旧、真实账单，以及多门店数周复测。",
-      "risk": "企业自述，未独立审计全程日志；两台未通过说明能力仍有边界。试验场景、人员支持与任务定义可能影响外推，不标为已验证商业盈利。",
+      "fact": "NVIDIA 11月9日在 CoRL 介绍 GR00T 2。模型从历史图像、语言和机器人状态联合预测未来视频与动作块。白皮书第3.1节在 Dexter 双灵巧手平台上评估50项目标本体未见任务，这些任务出现在其他机器人数据或人类视频中。零样本单次试验成功率为40%，50项中有40项至少成功一次。每任务用1次或5次示范进行 LoRA 微调，作者报告平均成功率分别为71%和95%，每次微调在单张 RTX 5090 上约30分钟。Turbo 在宇树 G1 搭载的 Jetson Thor 上单次预测延迟中位数为124毫秒，SONIC 底层控制频率为50赫兹。",
+      "interpretation": "推论：少量目标本体示范可能弥补精细接触误差。端侧预测、底层跟踪与整项任务成功分别衡量不同环节，需保留各自的分母和时序。",
+      "investment": "推论：核对客户验收、现场人工接管和售后成本后，再评估工业部署的持续收入。",
+      "business": "推论：从插接或装配的一项固定工序验证，预先冻结工装、初始物体分布和交付标准，比较示范采集、微调与人工兜底成本。",
+      "career": "推论：精读白皮书图2、表1与第4.6节，对照零样本、少样本和整任务控制。记录单次预测时延、动作块长度与底层控制周期。",
+      "watch": "正式代码与权重、许可证、同等起始场景下的基线、独立实机复测、持续产出和接管率。研究页将代码列为12月计划。",
+      "risk": "结果来自作者。表1注明 YAM 卡车组装采用调整后更容易的起始场景，原场景中 GR00T 2 仅成功7/20次。需特别检查场景难度与硬件差异。",
       "companies": [
-        "智元 AGIBOT"
+        "NVIDIA",
+        "宇树科技 Unitree"
       ],
-      "storyId": "agibot-productive-robotics",
-      "changeType": "持续进展",
-      "previousEventIds": [
-        "agibot-worken-go3-20261029"
-      ],
-      "relatedEventIds": [],
-      "delta": "上期新增Worken框架与GO-3预览，本期新增门店连续运行材料。公告没有提供足以验证净节省人工、单任务成本和长期可靠性的完整账本，也不能据此确认全部任务由GO-3独立控制。",
-      "selectionReason": "前期要求实际工作证据，本周出现有起止时间、场景与失败披露的试验，值得追问其经济性。",
-      "aiTopics": [
-        "具身智能",
-        "AI应用与智能体"
-      ],
-      "sources": [
-        {
-          "name": "智元 — G2便利店24小时试验（官网新闻列表11月6日）",
-          "url": "https://www.agibot.com/article/231/detail/134.html",
-          "date": "2026-11-06",
-          "type": "一手"
-        }
-      ]
-    },
-    {
-      "id": "toyblocks-controlled-evaluation-20261106",
-      "title": "Ai2发布ToyBlocks：用可控任务定位VLA的泛化失败",
-      "sector": "人工智能",
-      "region": "海外",
-      "date": "2026-11-06",
-      "published": "2026-11-06",
-      "kind": "已发生",
-      "confidence": "一手确认",
-      "stage": "早期信号",
-      "horizon": "中期",
-      "fact": "Ai2于11月6日介绍ToyBlocks开放仿真框架，自动生成积木操作任务与示范，可分别测试训练区域内插值和区域外外推，并区分高层规划与低层执行。作者初步实验发现多种动作模型的空间泛化仍有困难；框架还能测试动作条件世界模型。代码入口可读，本期未运行。",
-      "interpretation": "推论：效率提升可能被分布外失败抵消。研究贡献应说明模型在哪类变化下仍能工作，而不只提高一个平均分。",
-      "investment": "推论：把泛化评测视为技术尽调方法，不能将开放研究工具当作公司订单或可交易资产。",
-      "business": "推论：若提供机器人评测服务，先确认客户需要哪些迁移场景和验收指标，再验证是否有付费预算。",
-      "career": "推论：设计固定训练区域、未见物体布局及保留长任务的对照；用高低层替换实验定位误差，不先投入大规模训练。",
-      "watch": "任务定义、数据划分、随机种子、外推成功率、力与任务进度，以及仿真到实机误差。记录真实执行成本。",
-      "risk": "作者结果并非本观察站复现；简单积木环境不能代表通用机器人能力。规划器使用的仿真特权状态不能泄漏给被评测策略。",
-      "companies": [
-        "Ai2 / Allen Institute for AI"
-      ],
-      "storyId": "toyblocks-controlled-evaluation",
+      "storyId": "nvidia-gr00t2-corl-20261109",
       "changeType": "关联观察",
       "previousEventIds": [
+        "toyblocks-controlled-evaluation-20261106",
         "mars-wam-acceleration-20261013"
       ],
       "relatedEventIds": [],
-      "delta": "第2期MARS关注推理速度与成功率，本期新增独立团队的空间泛化与分层归因工具。不是MARS复现，也没有证据证明两团队合作；低延迟假设仍须与泛化检验并行。",
-      "selectionReason": "提供可控实验设计和代码入口，帮助把VLA/WAM研究从榜单与演示转为失败机制分析。",
+      "delta": "第5期 ToyBlocks 提供可控仿真来定位泛化失败，第2期 MARS 提供基座相关的加速结果。本期新增不同模型的真机少样本对照及端侧运行数据。各研究使用的机器人、任务及延迟定义不同，需在同一协议下重测。",
+      "selectionReason": "作者同时公开了泛化条件、微调开销和负面例子，可追踪从训练数据到真机验收的具体瓶颈。",
       "aiTopics": [
         "具身智能",
         "VLA",
@@ -93,290 +52,412 @@
       ],
       "sources": [
         {
-          "name": "Ai2 — ToyBlocks发布与实验说明",
-          "url": "https://huggingface.co/blog/allenai/toyblocks",
-          "date": "2026-11-06",
+          "name": "NVIDIA CoRL 发布",
+          "url": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/",
+          "date": "2026-11-09",
           "type": "一手"
         },
         {
-          "name": "Ai2 — ToyBlocks官方代码（查阅日期）",
-          "url": "https://github.com/allenai/ToyBlocks",
-          "date": "2026-11-07",
+          "name": "NVIDIA GEAR 11月白皮书，第3.1节、表1及第4.6节（按同期发布归档）",
+          "url": "https://research.nvidia.com/labs/gear/gr00t-2/assets/gr00t2_whitepaper.pdf",
+          "date": "2026-11-09",
+          "type": "一手"
+        },
+        {
+          "name": "NVIDIA GEAR 项目页与复现状态",
+          "url": "https://research.nvidia.com/labs/gear/gr00t-2/",
+          "date": "2026-11-09",
           "type": "一手"
         }
       ]
     },
     {
-      "id": "tencent-hy4-release-20261104",
-      "title": "腾讯Hy4加入视觉与电脑操作，发布公告仍将权重开放列为后续计划",
+      "id": "qwen-code-1-preview-20261111",
+      "title": "Qwen Code 1.0 预览版提供原生安装与多模型端点",
       "sector": "人工智能",
       "region": "中国",
-      "date": "2026-11-04",
-      "published": "2026-11-04",
+      "date": "2026-11-11",
+      "published": "2026-11-11",
       "kind": "已发生",
       "confidence": "一手确认",
       "stage": "早期信号",
       "horizon": "中期",
-      "fact": "腾讯11月4日发布Hy4，称相对Preview新增视觉理解和电脑操作，已接入TokenHub、WorkBuddy/CodeBuddy等产品。中文原公告称模型权重和系统卡将于近期开源，不能只凭标题认定已经下载验证。刊例价为每百万token输入6元、输出18元、缓存命中0.3元；另有限期优惠。",
-      "interpretation": "推论：企业智能体的竞争越来越包含软件接口、任务状态、权限与失败恢复；模型成绩只是系统表现的一环。",
-      "investment": "推论：观察真实付费、留存及单位成本；不能用产品免费额度和内部榜单推算腾讯新增利润。",
-      "business": "推论：选一个现有办公流程，以相同输入比较人工、国内与海外方案；把失败重试、人工复核、延迟和促销结束后的价格计入。",
-      "career": "推论：积累视觉任务、工具调用和电脑操作的可回放评测，核对数据与软件操作权限。",
-      "watch": "正式权重与许可证、系统卡、独立长任务完成率、误操作、每个合格任务成本与优惠到期后留存。",
-      "risk": "公司内部金融、办公和幻觉评测尚未独立复现；不同测试口径不混比。公告的未来开放承诺不等于当前可商用权重，token价也不等于整项任务成本。",
+      "fact": "QwenLM GitHub 于11月11日03:55 UTC 发布 v1.0.0-preview。发布说明称整合 Qoder 与 Qwen Code 的代码理解、实现、调试和测试能力，支持多模型提供方、自定义兼容端点、会话恢复及非交互执行。发布资产包含 macOS、Linux、Windows 原生包。",
+      "interpretation": "推论：支持不同模型端点有助于企业按任务调整底层模型。代码任务的交付成本还取决于测试、人工复核与会话恢复。",
+      "investment": "推论：关注企业付费、留存和推理支出。预览版发布与下载量仅提供采用线索。",
+      "business": "推论：用同一组历史修复任务比较原流程和候选工具，测量测试通过率、人工审查时间及访问权限的配置成本。",
+      "career": "推论：把可复现构建、测试、会话恢复和错误回退写进作品说明。预览接口变动时可从固定版本复查。",
+      "watch": "稳定版、端点兼容性、平台安装失败率、权限控制、迁移工时及长期任务复测。",
+      "risk": "发布方说明预览接口可能变动。包存在仅证明分发入口，本期未安装或独立评测，也未将工具发布归为基础模型发布。",
       "companies": [
-        "腾讯 Tencent"
+        "阿里巴巴",
+        "Qwen",
+        "Qoder"
       ],
-      "storyId": "tencent-hy4-release",
-      "changeType": "首次出现",
-      "previousEventIds": [],
-      "relatedEventIds": [],
-      "selectionReason": "国内基础模型与工作流产品融合出现具体发布、入口及价格，但开放状态和自建评测需要拆开核查。",
-      "aiTopics": [
-        "基础模型",
-        "AI应用与智能体"
-      ],
-      "sources": [
-        {
-          "name": "腾讯 — Hy4中文原始发布与价格说明",
-          "url": "https://www.tencent.com/zh-cn/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/",
-          "date": "2026-11-04",
-          "type": "一手"
-        }
-      ]
-    },
-    {
-      "id": "biobasicsbench-lab-evidence-20261106",
-      "title": "BioBasicsBench把AI科研评测拉回原始实验数据，66.7%不是实验成功率",
-      "sector": "医疗与生命科学",
-      "region": "海外",
-      "date": "2026-11-06",
-      "published": "2026-11-06",
-      "kind": "已发生",
-      "confidence": "一手确认",
-      "stage": "早期信号",
-      "horizon": "中期",
-      "fact": "OpenAI与Ligo于11月6日介绍BioBasicsBench：100个日常湿实验分析任务，输入包含原始图像、仪器文件和实验记录。作者报告在xhigh推理设置下，GPT-6 Astra平均获得可得分值的66.7%，GPT-5.6 Sol为43.8%；各设置每题尝试5次。这里是评分奖励均值，不是完成湿实验的成功率。",
-      "interpretation": "推论：科研助手的机会可能先出现在证据整理、质量检查和可追溯分析；必须允许模型得出证据不足，并由实验人员复核。",
-      "investment": "推论：追踪研究团队持续采用、节约时间及实际付费，评分改善不能直接映射药物成功率或估值。",
-      "business": "推论：从实验记录与仪器导出文件整理的小流程验证需求，比较错误率、人工复核时间与复用成本。",
-      "career": "推论：结合领域知识与多模态数据分析，学习阴阳性对照、单位、原始文件和不确定性表达。",
-      "watch": "公开任务与评分细则、保留实验数据评测、置信区间、关键错误类型、独立实验室复现和复核时间。",
-      "risk": "由供应商与合作方开发和评测，本期未复现。100项常规分析不覆盖全部科学研究；不能据此声称模型可自主完成实验或用于临床决策。",
-      "companies": [
-        "OpenAI",
-        "Ligo"
-      ],
-      "storyId": "biobasicsbench-lab-evidence",
+      "storyId": "qwen-code-1-preview-20261111",
       "changeType": "关联观察",
       "previousEventIds": [
-        "rosalind-academic-access-20261016"
+        "tencent-hy4-release-20261104"
       ],
       "relatedEventIds": [],
-      "delta": "第2期Rosalind是学术准入计划，本期新增另一种实验数据解释基准；不是Rosalind使用效果、临床结果或付费转化证据。",
-      "selectionReason": "提供任务数、评分方式和推理设置，能检验科研AI对不充分证据、图像与对照的处理边界。",
+      "delta": "第5期记录腾讯 Hy4 接入办公与编码工具的产品路径。本期新增阿里编码智能体预览版的发布资产和接入方式，可在相同任务上比较工具层差异。Hy4 权重开放仍需另查官方材料。",
+      "selectionReason": "公开标记和平台安装包让国内编码智能体的分发、自动化与迁移条件可以核查。",
       "aiTopics": [
-        "基础模型",
         "AI应用与智能体"
       ],
       "sources": [
         {
-          "name": "OpenAI — BioBasicsBench方法、结果与限制",
-          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
-          "date": "2026-11-06",
+          "name": "QwenLM — v1.0.0-preview 发布页与资产",
+          "url": "https://github.com/QwenLM/qwen-code/releases/tag/v1.0.0-preview",
+          "date": "2026-11-11",
           "type": "一手"
         }
       ]
     },
     {
-      "id": "enbridge-q3-cashflow-20261106",
-      "title": "Enbridge季报把能源建设落到投运与现金流，利润增长并未同步反映在经营现金",
+      "id": "dsx-kubernetes-openshell-20261110",
+      "title": "OpenShell 进入 CNCF，DSX 增加 GPU 集群管理工具",
+      "sector": "人工智能",
+      "region": "海外",
+      "date": "2026-11-10",
+      "published": "2026-11-10",
+      "kind": "已发生",
+      "confidence": "一手确认",
+      "stage": "早期信号",
+      "horizon": "中期",
+      "fact": "11月10日 CNCF 确认 OpenShell 和 Agent Substrate 进入 Sandbox。NVIDIA 同期公布 DSX 的 Kubernetes 管理组件预览及 Snapshot。NVIDIA 引述设计伙伴 Crusoe 在 HGX B300 上测试 GLM-5.3，工作负载就绪时间由约8分钟缩短至31秒，属于该配置的冷启动数据。",
+      "interpretation": "推论：短时突发负载可能受益于更快的副本恢复。文件、网络和凭据的权限执行需要在智能体运行环境中单独验证。",
+      "investment": "推论：关注实际生产采用、资源利用率和续约。Sandbox 接纳和单项恢复速度不足以估算商业回报。",
+      "business": "推论：先比较常驻副本与快照恢复的服务成本，用目标模型和故障回放评估就绪时间、失败率及存储开销。",
+      "career": "推论：学习 Kubernetes 推理部署、最小权限与可复现性能测试，记录检查点读取、容器就绪及首个有效响应的时间。",
+      "watch": "独立复测、快照兼容性、每请求成本、端到端尾延迟、权限绕过测试和维护者贡献。",
+      "risk": "设计伙伴结果针对特定硬件和模型。读取快照、显存及跨版本兼容的成本可能抵消收益。CNCF Sandbox 属早期项目阶段。",
+      "companies": [
+        "NVIDIA",
+        "Google",
+        "Crusoe"
+      ],
+      "storyId": "ocp-ai-infrastructure-standards",
+      "changeType": "持续进展",
+      "previousEventIds": [
+        "dsx-energy-partners-20261021"
+      ],
+      "relatedEventIds": [],
+      "delta": "此前 DSX 跟踪的是配电、冷却和供应商适配，本期新增同一平台的软件管理、推理副本恢复与智能体权限治理证据。此前能源合作的合同及投运需继续单独核查。",
+      "selectionReason": "基金会确认治理状态，供应商又给出具体推理恢复条件，可验证基础设施到底减少哪一段等待。",
+      "aiTopics": [
+        "算力与基础设施",
+        "AI应用与智能体"
+      ],
+      "sources": [
+        {
+          "name": "CNCF — OpenShell 与 Agent Substrate 纳入 Sandbox",
+          "url": "https://www.cncf.io/announcements/2026/11/10/cncf-hits-major-milestones-with-global-community-growth-record-industry-investment-and-a-new-generation-of-projects-to-build-ai-systems-in-production/",
+          "date": "2026-11-10",
+          "type": "一手"
+        },
+        {
+          "name": "NVIDIA — DSX 发布与伙伴测试条件",
+          "url": "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure/",
+          "date": "2026-11-10",
+          "type": "一手"
+        }
+      ]
+    },
+    {
+      "id": "oregon-pacific-power-data-center-tariff-20261113",
+      "title": "俄勒冈批准 Pacific Power 大型数据中心电价方案",
       "sector": "能源与电力",
       "region": "海外",
-      "date": "2026-11-06",
-      "published": "2026-11-06",
-      "kind": "数据发布",
-      "confidence": "一手确认",
-      "stage": "商业验证",
-      "horizon": "中期",
-      "fact": "Enbridge于11月6日披露未经审计的2026年第三季度结果（以下为加元）：归属普通股股东GAAP盈利约13亿，上年约7亿；经营活动现金流约27亿，上年约29亿。公司称本季度约30亿天然气输送项目投运，维持全年指引。这是7—9月经营结果，不是本周新完成全部工程。",
-      "interpretation": "推论：能源基础设施价值要逐项目核对使用量、合同、债务与现金回收；本案例中利润与经营现金变化不同，值得追问原因。",
-      "investment": "推论：对照现金流量表、融资及资本开支，不把公司定义的DCF当成经营现金或自由现金流；研究收益还须核对证券价格。",
-      "business": "推论：围绕在运资产的监测、维护和验收服务寻找需求，确认采购资格和真实合同，避免先按行业热度扩张。",
-      "career": "推论：训练能源项目经济性与财务报表连接，区分GAAP盈利、非GAAP指标、现金流和投运容量。",
-      "watch": "季度报告中的营运资本、利息、债务、资本开支，以及项目利用率、合同期限和回款。核实实际AI客户敞口。",
-      "risk": "公司披露未经审计，经营现金同比下降提供反面信号；不能证明所有能源项目受益。本文未确认其项目与前期NVIDIA DSX或城市储能存在供货联系。",
-      "companies": [
-        "Enbridge"
-      ],
-      "storyId": "enbridge-energy-infrastructure",
-      "changeType": "首次出现",
-      "previousEventIds": [],
-      "relatedEventIds": [],
-      "selectionReason": "同时提供投运、利润与经营现金证据，用来过滤只凭AI能源需求推算收益的叙事。",
-      "aiTopics": [],
-      "sources": [
-        {
-          "name": "Enbridge — 2026年第三季度业绩及项目更新",
-          "url": "https://www.enbridge.com/media-center/news/details?id=123894&lang=en",
-          "date": "2026-11-06",
-          "type": "一手"
-        }
-      ]
-    },
-    {
-      "id": "china-service-trade-q3-20261104",
-      "title": "中国服务出口增长较快，知识密集型服务提供结构线索",
-      "sector": "宏观与贸易",
-      "region": "中国",
-      "date": "2026-11-04",
-      "published": "2026-11-04",
-      "kind": "数据发布",
-      "confidence": "一手确认",
-      "stage": "商业验证",
-      "horizon": "中期",
-      "fact": "商务部11月4日公布1—9月服务进出口总额57687.7亿元，同比增长8.5%；出口增长14.8%，进口增长4.8%。其中知识密集型服务出口12199亿元，增长11.7%，占服务出口53.7%。统计期是前三季度，不能作为11月订单。",
-      "interpretation": "推论：跨境服务机会需要下钻行业、语言、交付标准与获客渠道；知识密集型服务并不等同AI服务。",
-      "investment": "推论：寻找具体企业的合同、利润及回款，宏观服务出口增长不自动代表某家软件公司盈利改善。",
-      "business": "推论：可调查本地化、数字内容与专业服务流程，先向真实客户核对需求、预算和交付条件。",
-      "career": "推论：在行业能力上叠加语言、数据分析和国际协作，围绕真实交付作品积累能力。",
-      "watch": "分行业和目的地数据、实际合同、客户续费、获客费用和付款周期；核对后续月度与修订。",
-      "risk": "全国累计统计不代表小企业获客难度；运输、金融等构成各异，不能推断全部增长来自AI或所有出口服务同样受益。",
-      "companies": [],
-      "storyId": "china-service-trade-structure",
-      "changeType": "关联观察",
-      "previousEventIds": [
-        "china-q3-gdp-20261019",
-        "china-oct-pmi-20261031"
-      ],
-      "relatedEventIds": [],
-      "delta": "前期GDP和10月制造业PMI之外，本期增加前三季度服务贸易分项。累计金额、同比增长与PMI扩散指数不直接比较，不据此宣称11月需求反转或AI出口已被单列验证。",
-      "selectionReason": "补充制造业调查之外的服务贸易结构，帮助寻找跨境服务需求，而不把总量压力外推到所有行业。",
-      "aiTopics": [],
-      "sources": [
-        {
-          "name": "商务部 — 2026年1—9月服务贸易发展情况",
-          "url": "https://www.mofcom.gov.cn/xwfb/sjfzrfb/art/2026/art_384fd184b2554deeb0c58e3e63ae5f0a.html",
-          "date": "2026-11-04",
-          "type": "一手"
-        }
-      ]
-    },
-    {
-      "id": "us-oct-employment-20261106",
-      "title": "美国10月新增非农16.5万，前值修订提醒不要押单月叙事",
-      "sector": "宏观与贸易",
-      "region": "海外",
-      "date": "2026-11-06",
-      "published": "2026-11-06",
-      "kind": "数据发布",
-      "confidence": "一手确认",
-      "stage": "商业验证",
-      "horizon": "中期",
-      "fact": "美国BLS于11月6日08:30美东时间发布10月就业报告：非农就业增加16.5万人，失业率4.1%；8、9月新增就业合计上修8.4万人。因经济原因兼职人数增加33.9万人。非农就业与失业率分别来自机构、住户两项调查，数值不可简单互推。",
-      "interpretation": "推论：总就业增加可与部分人希望增加工时并存。融资和求职计划应关注行业与岗位结构，而非由单月总数推断全面强劲或衰退。",
-      "investment": "推论：连同通胀、工资与金融条件检验利率情景；本数据不足以保证降息、加息或资产方向。",
-      "business": "推论：核对招聘、工资和服务需求的地区行业差异，用自己的客户与现金流验证扩张假设。",
-      "career": "推论：比较目标岗位的招聘量、薪资、工时和技能要求；统计中的专业服务增长不等于所有AI岗位同步增加。",
-      "watch": "后续修订、劳动参与、非自愿兼职、行业就业和工资；与最新通胀共同观察。",
-      "risk": "初值可能修订，单月波动和两类调查差异会影响解释；就业变化不是货币政策或企业盈利的单一充分条件。",
-      "companies": [],
-      "storyId": "us-employment-policy-context",
-      "changeType": "关联观察",
-      "previousEventIds": [
-        "fed-oct-policy-20261029"
-      ],
-      "relatedEventIds": [],
-      "delta": "上期为10月FOMC政策决定，本期新增随后发布的10月就业材料；不能倒推为上次会议已掌握的数据，也不是利率新决定。",
-      "selectionReason": "提供融资和职业判断的重要现实约束，主数据、前值修订与就业质量信号须同时阅读。",
-      "aiTopics": [],
-      "sources": [
-        {
-          "name": "BLS — 2026年11月6日就业报告存档",
-          "url": "https://www.bls.gov/news.release/archives/empsit_11062026.htm",
-          "date": "2026-11-06",
-          "type": "一手"
-        }
-      ]
-    },
-    {
-      "id": "us-midterms-policy-scenarios-20261106",
-      "title": "美国中期选举媒体判定两院将易手，政策影响仍需逐项验证",
-      "sector": "宏观与贸易",
-      "region": "海外",
-      "date": "2026-11-03",
-      "published": "2026-11-06",
+      "date": "2026-11-13",
+      "published": "2026-11-13",
       "kind": "已发生",
-      "confidence": "可靠报道",
+      "confidence": "一手确认",
       "stage": "早期信号",
       "horizon": "中期",
-      "fact": "美国11月3日举行中期选举。AP在11月6日报道中称民主党取得国会两院控制权；CBS的本周选举报道给出相同方向的预测。本期将其标为媒体判定，未核验各州全部认证结果，不列最终精确席次，也不把尚未就任的新国会当作当前立法决定。",
-      "interpretation": "推论：政策分歧可能增加预算、监管与贸易方向的不确定性；选举结果无法单独说明一项法案能否通过或行政措施是否改变。",
-      "investment": "推论：以已生效规则和企业收入敞口评估情景，不凭党派标签预测某行业必涨或必跌。",
-      "business": "推论：跨境与政府采购业务持续核对实际招标、合同和正式规则；把政策预期与经营预算的触发条件写清。",
-      "career": "推论：学习区分选举预测、认证、就任、提案和法律生效，形成政策信息的证据层级。",
-      "watch": "州级认证、争议处理、国会正式组成、法案文本与表决、预算及行政机构实际文件。",
-      "risk": "席次及认证仍有时差；媒体判定不是最终官方汇总，政策推论不保证成真，不能将竞选主张当作实施。",
-      "companies": [],
-      "storyId": "us-midterms-2026",
-      "changeType": "首次出现",
-      "previousEventIds": [],
+      "fact": "俄勒冈州公用事业委员会 UE 463 最终命令标注11月13日登记。Pacific Power 同日说明，获批资费在其俄勒冈服务区为用电规模达到或可达20 MW的合资格数据中心设置独立客户类别，要求长期服务协议，相关设施和供电成本由该类客户承担。公司列明生效日为2027年1月1日。",
+      "interpretation": "推论：需预付或承担更多基础设施成本的项目，可能更重视负荷兑现、分期建设与投产节奏。",
+      "investment": "推论：用并网进度、负荷合同和资产利用率检验电力设备与机房项目的现金流假设。",
+      "business": "推论：为机房客户测算扩容、延迟和低利用率三种情形的电力总成本，确认客户采购流程后再评估服务需求。",
+      "career": "推论：练习读公用事业案卷，区分兆瓦容量、兆瓦时耗电、接入成本与服务期限。",
+      "watch": "正式资费文本、签约和接入时间、费用分摊、实际负荷及其他州规则。",
+      "risk": "本案期限与费用取决于适用条款和客户合同。用电需求与电力项目投运仍须按项目核验。",
+      "companies": [
+        "Pacific Power",
+        "PacifiCorp"
+      ],
+      "storyId": "oregon-pacific-power-data-center-tariff-20261113",
+      "changeType": "关联观察",
+      "previousEventIds": [
+        "dsx-energy-partners-20261021"
+      ],
       "relatedEventIds": [],
-      "selectionReason": "可能改变跨行业政策议程和预算预期，值得列入情景观察，但需要与既有法律和已执行措施分开。",
+      "delta": "此前算电记录关心设备适配和并网约束。本期新增不同机构的成本分配规则，可将长期供电承诺纳入选址测算。该规则适用范围为这一公用事业服务区。",
+      "selectionReason": "有监管命令、适用门槛和生效日期，能从算力扩张计划下钻到项目承担的实际成本。",
+      "aiTopics": [
+        "算力与基础设施"
+      ],
+      "sources": [
+        {
+          "name": "俄勒冈州公用事业委员会 — UE 463 最终命令 26-443",
+          "url": "https://apps.puc.state.or.us/orders/2026ords/26-443.pdf",
+          "date": "2026-11-13",
+          "type": "一手"
+        },
+        {
+          "name": "Pacific Power — 门槛、服务范围与生效日期",
+          "url": "https://www.pacificpower.net/about/newsroom/news-releases/large-load-filing.html",
+          "date": "2026-11-13",
+          "type": "一手"
+        }
+      ]
+    },
+    {
+      "id": "tsmc-oct-revenue-20261110",
+      "title": "台积电10月营收同比增59.7%，月度数据继续验证经营规模",
+      "sector": "半导体与通信",
+      "region": "跨境",
+      "date": "2026-11-10",
+      "published": "2026-11-10",
+      "kind": "数据发布",
+      "confidence": "一手确认",
+      "stage": "商业验证",
+      "horizon": "中期",
+      "fact": "台积电11月10日公布10月合并净营收约5868.9亿新台币，环比增长14.7%，同比增长59.7%。月度金额未经审计，统计期为10月。",
+      "interpretation": "推论：月度营收增长支持继续跟踪先进制造与封装需求。分业务贡献仍需公司披露。",
+      "investment": "推论：把盈利、现金流、资本开支和市场估值纳入同一测算，再检验营收增长的兑现质量。",
+      "business": "推论：验证制造客户的测试、良率和产能协同痛点，取得实际采购和交付约束后再评估机会。",
+      "career": "推论：用公司月报与季报练习区分规模、产品组合、汇率及利润率。",
+      "watch": "后续月报、季度制程营收、毛利率、经营现金流与资本开支。",
+      "risk": "同比受基期影响，环比存在出货时点和汇率干扰。单月合并数据不足以归因到某一客户、制程或 AI 产品。",
+      "companies": [
+        "台积电 TSMC"
+      ],
+      "storyId": "tsmc-september-2026",
+      "changeType": "持续进展",
+      "previousEventIds": [
+        "tsmc-q3-profit-confirmation-20261015",
+        "tsmc-september-2026"
+      ],
+      "relatedEventIds": [],
+      "delta": "第1期记录9月营收，第2期记录第三季度利润。本期新增四季度首月营收，同比增速高于9月的54.6%。本月产品结构、利润率和现金回收仍待季度披露。",
+      "selectionReason": "为连续跟踪的芯片经营提供新一期公司原始数据，有助于检验增长延续性。",
+      "aiTopics": [
+        "算力与基础设施"
+      ],
+      "sources": [
+        {
+          "name": "台积电 — 10月营收原始公告",
+          "url": "https://pr.tsmc.com/system/files/newspdf/attachment/382be7eb993b44afd73aa6fbcf92ac792433c7d1/October%202026%20%28E%29_final_wmn.pdf",
+          "date": "2026-11-10",
+          "type": "一手"
+        }
+      ]
+    },
+    {
+      "id": "china-october-prices-20261109",
+      "title": "中国10月核心CPI涨幅回落，PPI涨幅扩大",
+      "sector": "宏观与贸易",
+      "region": "中国",
+      "date": "2026-11-09",
+      "published": "2026-11-09",
+      "kind": "数据发布",
+      "confidence": "一手确认",
+      "stage": "商业验证",
+      "horizon": "中期",
+      "fact": "国家统计局11月9日发布10月物价。CPI同比上涨0.7%，环比持平，核心CPI同比上涨0.8%。PPI同比上涨5.7%、环比上涨0.7%。食品CPI同比下降2.9%，非食品同比上涨1.5%。",
+      "interpretation": "推论：原料、出厂和终端售价的传导可能随行业分化。利润需要用企业自己的量价、库存及采购合同核查。",
+      "investment": "推论：按客户议价能力与成本结构查看毛利、库存及回款，避免把指数差值代入企业财务模型。",
+      "business": "推论：跟踪主要原料采购单价与实际成交价，测试调价后订单、投诉和回款的变化。",
+      "career": "推论：从官方分项表练习解释总指数、核心指标与基期，选一个行业追踪量价传导。",
+      "watch": "后续CPI及PPI分项、企业新品定价、销量、库存周转和季报。",
+      "risk": "全国指数权重与具体公司的成本结构不同。行业数据还可能受季节、商品价格及同比基数驱动。",
+      "companies": [],
+      "storyId": "china-consumer-producer-price-structure",
+      "changeType": "持续进展",
+      "previousEventIds": [
+        "china-september-prices-20261014"
+      ],
+      "relatedEventIds": [
+        "china-oct-pmi-20261031"
+      ],
+      "delta": "同口径较第2期的9月数据，CPI和核心CPI同比涨幅各回落0.2个百分点，PPI同比涨幅扩大0.7个百分点。10月PMI描述企业景气变化方向，价格数据补充了同期的价格层证据。",
+      "selectionReason": "同一统计体系给出了前后两月可比较的结构变化，可用来检验行业定价假设。",
       "aiTopics": [],
       "sources": [
         {
-          "name": "AP — 11月6日选举报道及国会两院结果描述",
-          "url": "https://apnews.com/article/arizona-midterm-elections-trifecta-legislature-democrat-republican-7b702479591f51c8b8a1d67597c6e05e",
-          "date": "2026-11-06",
-          "type": "媒体"
+          "name": "国家统计局 — 10月CPI",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261109_1965795.html",
+          "date": "2026-11-09",
+          "type": "一手"
         },
         {
-          "name": "CBS — 本周中期选举预测交叉核验（美东11月4日更新）",
-          "url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/",
-          "date": "2026-11-04",
-          "type": "媒体"
+          "name": "国家统计局 — 10月PPI",
+          "url": "https://www.stats.gov.cn/sj/zxfbhjd/202611/t20261109_1965794.html",
+          "date": "2026-11-09",
+          "type": "一手"
+        }
+      ]
+    },
+    {
+      "id": "upwork-ai-project-scope-20261110",
+      "title": "Upwork 研究显示 AI 项目的预算与工时差异大于报价时薪差异",
+      "sector": "教育与工作",
+      "region": "海外",
+      "date": "2026-11-10",
+      "published": "2026-11-10",
+      "kind": "数据发布",
+      "confidence": "一手确认",
+      "stage": "早期信号",
+      "horizon": "中期",
+      "fact": "OpenAI 与 Upwork 11月10日发表联合研究。价格和工时比较使用截至2026年4月的分析样本。控制工作子类别和发帖月份后，AI相关固定价项目的发帖预算高约52%，挂牌时薪高约1.5%。在已雇用且记录了正工时的按时计费合同中，首90天工时高约41%。",
+      "interpretation": "推论：客户可能在买更大的交付范围。项目设计可把领域实施、结果验收和运营整合进服务，工时增加也可能反映实施更复杂。",
+      "investment": "推论：研究平台及工具公司时比较成交、复购、佣金与服务工时，避免把项目挂牌预算计为收入。",
+      "business": "推论：用真实需求测试带验收标准的固定范围报价，跟踪实际成交、交付工时和返工成本。",
+      "career": "推论：把行业知识、AI集成与质量核验组合成可展示的项目，用实际结算金额除以全部投入工时复盘。",
+      "watch": "同类任务成交价、发送报价到签约转化率、最终支付、实际工时，以及其他平台复核。",
+      "risk": "观察性数据来自单一平台。样本选择、项目复杂度和地区差异可能同时影响是否使用AI及预算，无从据此得出因果工资溢价。",
+      "companies": [
+        "OpenAI",
+        "Upwork"
+      ],
+      "storyId": "upwork-ai-project-scope-20261110",
+      "changeType": "首次出现",
+      "previousEventIds": [],
+      "relatedEventIds": [],
+      "selectionReason": "研究同时报告预算、时薪和工时，能检验市场究竟多买了哪一类工作。",
+      "aiTopics": [
+        "AI应用与智能体"
+      ],
+      "sources": [
+        {
+          "name": "OpenAI 与 Upwork — 发布说明",
+          "url": "https://openai.com/index/ai-effect-on-freelance-work/",
+          "date": "2026-11-10",
+          "type": "一手"
         },
         {
-          "name": "FEC — 选举时间与官方结果流程入口（查阅日期）",
-          "url": "https://www.fec.gov/introduction-campaign-finance/election-results-and-voting-information/",
-          "date": "2026-11-07",
+          "name": "联合研究原报告，第2.2节、图2.4及方法附录",
+          "url": "https://cdn.openai.com/pdf/openai-upwork-full-report.pdf",
+          "date": "2026-11-10",
+          "type": "一手"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt-wallet-card-approval-20261113",
+      "title": "ChatGPT Wallet 小范围推出，逐笔授权接入原有银行卡体系",
+      "sector": "金融与支付",
+      "region": "海外",
+      "date": "2026-11-13",
+      "published": "2026-11-13",
+      "kind": "已发生",
+      "confidence": "一手确认",
+      "stage": "早期信号",
+      "horizon": "中期",
+      "fact": "OpenAI 11月13日宣布 ChatGPT Wallet 开始在 dots 推出，首批面向持合资格美国发行银行卡、年满18岁的美国 ChatGPT Pro 用户。用户逐笔核对金额和卡片，并通过安全检查确认。卡网络以支付令牌代替真实卡资料，商家继续负责履约、退货和客服。",
+      "interpretation": "推论：低误拒的授权识别、价格与库存同步、退款后的对账，可能比购物推荐本身更接近商家的运营瓶颈。",
+      "investment": "推论：先跟踪完成且结算的交易、费率、争议和复购，再评估对商家与支付机构的增量贡献。",
+      "business": "推论：访谈已有商户和支付服务商，核对对账、用户撤销、库存更新及误拒成本，确认可计费的环节。",
+      "career": "推论：学习支付令牌、授权记录、对账、拒付与退款流程，用测试环境演练异常订单归因。",
+      "watch": "地区和卡片开放范围、结账成功率、误拒、退款、争议处理时长和净新增交易。",
+      "risk": "首批资格有限，逐笔授权增加步骤。风险系统仍可能误拒，实际支付表现与未来委托模式待验证。",
+      "companies": [
+        "OpenAI",
+        "American Express",
+        "Mastercard",
+        "Visa"
+      ],
+      "storyId": "chatgpt-wallet-card-approval-20261113",
+      "changeType": "关联观察",
+      "previousEventIds": [
+        "cpmi-payment-analysis-20261029"
+      ],
+      "relatedEventIds": [],
+      "delta": "第4期 CPMI 报告关注支付系统的结算与责任，本期新增采用现有卡网络的逐笔授权案例。该案例的实际付款、争议及欺诈率仍待运行数据。",
+      "selectionReason": "发布明确了适用人群、授权方式和商家责任，给智能体商业化提供可检验的交易环节。",
+      "aiTopics": [
+        "AI应用与智能体"
+      ],
+      "sources": [
+        {
+          "name": "OpenAI — Wallet 原始发布与首批资格",
+          "url": "https://openai.com/index/introducing-chatgpt-wallet/",
+          "date": "2026-11-13",
+          "type": "一手"
+        }
+      ]
+    },
+    {
+      "id": "ciie9-transaction-intentions-20261110",
+      "title": "第九届进博会披露一年期意向成交及重点参展数据",
+      "sector": "宏观与贸易",
+      "region": "跨境",
+      "date": "2026-11-10",
+      "published": "2026-11-10",
+      "kind": "数据发布",
+      "confidence": "一手确认",
+      "stage": "早期信号",
+      "horizon": "中期",
+      "fact": "第九届进博会于11月10日闭幕。主办方同日披露，4142家企业参展，按一年计意向成交854.5亿美元，较上届增加2.3%。展会跨越两个周报窗口，闭幕汇总归入本期。",
+      "interpretation": "推论：对接活动能降低发现初期买卖线索的成本，真实需求应结合具体买家采购条件、样品验证和复购判断。",
+      "investment": "推论：以公司正式合同、收入确认及收款记录重新核对展会订单叙述。",
+      "business": "推论：按细分品类访谈采购商，记录样品、认证、运输和结算要求，优先验证可签小单的场景。",
+      "career": "推论：用一个进口品类编制从展会对接到履约交付的流程说明，积累双语行业与贸易实务能力。",
+      "watch": "意向转正式合同率、海关执行、进口落地、合同履约与回款周期。",
+      "risk": "意向金额可能调整或取消。各企业、地区和品类的转化率无法从总额推出。",
+      "companies": [],
+      "storyId": "ciie9-transaction-intentions-20261110",
+      "changeType": "首次出现",
+      "previousEventIds": [],
+      "relatedEventIds": [],
+      "selectionReason": "主办方披露了统计口径，能据此筛选跨境需求并跟进意向转合同的环节。",
+      "aiTopics": [],
+      "sources": [
+        {
+          "name": "中国国际进口博览会 — 第九届闭幕数据",
+          "url": "https://www.ciie.org/zbh/bqgffb/20261110/66216.html",
+          "date": "2026-11-10",
           "type": "一手"
         }
       ]
     }
   ],
   "coverageGaps": [
-    "本周云端采集实际完成于2026-11-07T06:31:45Z（北京时间14:31），5/5来源成功，共42条待核验候选；OpenAI25、NVIDIA8、Hugging Face8、Fed1、BIS0。BIS零条不代表金融领域没有变化；正式研究另补国内公司、政府统计、财报与选举交叉核验。",
-    "实际研究与生成晚于周六09:00目标，generatedAt保留真实时间；本期窗口为北京时间11月1—7日。美国事件注明原文当地日期，未宣称准点上线或覆盖未来时段。",
-    "读取DeepSeek文档、Qwen入口并检索本周动态；Qwen博客未返回可读正文，传闻及无可靠新日期资料不入选。宇树公开入口不足以确认本周实质新发布；不以未收录推断企业停止进展。",
-    "NVIDIA 11月5日Cosmos文章与模型卡交叉核验发现，Sim-Bimanual V1.0标注10月20日；不能把新教程日期写成模型本周首次发布。本期只在复盘提示口径，不重复旧发布。",
-    "本期未下载大型模型、租用算力、训练或实机复现。模型及机器人性能为作者或企业披露；代码入口可读不等于环境已复现或商用许可全部审核。",
-    "农业、航天、汽车、地产与消费等领域未形成足够值得单列且核验完整的新记录；扫描非穷尽，没有新闻数量或行业配额。选举为媒体交叉核验，最终认证与具体政策仍待后续。"
+    "云端采集于11月14日北京时间14:57完成，5个来源全部成功，共45条候选。OpenAI 19条、NVIDIA 10条、Hugging Face 10条、BIS 1条、美联储5条。原文按公告注明的日期记录，11月14日发生于采集完成后的事件覆盖有限。",
+    "自动任务晚于周六09:00目标，生成时间使用实际时间。另检索国内公司、监管、统计局及跨境贸易原文。",
+    "检索了 DeepSeek、Qwen、腾讯、智元、宇树和 Physical Intelligence 的公开入口。国内软件信号选入带版本的 Qwen Code。部分模型候选缺少可核验的正式权重或当周原始发布日期。公开入口对企业全部活动的覆盖有限。",
+    "本期机器人、推理和智能体结果来自发布方或作者。独立复现待做，研究页称 GR00T 2 代码计划12月公布。未形成适合单列的医疗、农业或航天记录。"
   ],
   "actions": [
     {
       "type": "投资",
-      "title": "把主题落实到一份现金回收表",
-      "detail": "选择一家熟悉的企业，分别列收入、利润、经营现金、资本开支、债务与估值；核对季度统计期，记录反面信号，不因AI或政策主题直接交易。"
+      "title": "按兑现阶段跟踪芯片和算电",
+      "detail": "用台积电月报、财报与数据中心电力合同分别记录营收、资本投入、现金流、并网和成本责任。只用同一会计口径及对应统计期做比较。"
     },
     {
       "type": "创业",
-      "title": "为一个真实任务做净收益验收",
-      "detail": "先确定客户愿意付款的合格产出，再记录失败、重试、人工介入和维护成本；用小范围试验比较原流程与新方案，未验证前不扩大投入。"
+      "title": "给一个项目估出完整交付成本",
+      "detail": "从代码集成、测试、复核和异常处理估工时。与实际签约和收款对照，用已兑现的有效时薪决定是否继续投入。"
     },
     {
       "type": "成长",
-      "title": "设计VLA的泛化与失败归因对照",
-      "detail": "先读ToyBlocks任务与代码，画清观察、规划、动作接口；拟定训练区域内外和高低层替换对照，明确成功标准、种子和成本。尚未运行的实验不写成结果。"
+      "title": "用 GR00T 2 的失败案例设计真机对照",
+      "detail": "阅读图2及表1，构造固定初始分布和未见布局两组验收，分开记录零样本成功、少样本适配成本与整任务恢复次数。"
     }
   ],
-  "nextWeek": [],
+  "nextWeek": [
+    {
+      "date": "2026-11-18",
+      "title": "腾讯第三季度业绩日程",
+      "detail": "公司日程列示香港时间20:00。关注经营现金流与资本开支，并查阅财报对 AI 投入及采用披露的范围。",
+      "url": "https://www.tencent.com/zh-cn/investors/investor-kit-calendar/"
+    }
+  ],
   "review": [
-    "智元：上期要求真实产出，本期有门店连续试验和两台未通过的新信息，提高继续跟踪的价值；仍缺接管、成本、验收与回款，不将生产力主张升级为已验证商业收益。",
-    "VLA/WAM：ToyBlocks新增空间外推与分层归因工具，说明第2期MARS速度优化还需更宽的评测。未取得MARS独立复现，不延续峰值倍数作为普遍结论。",
-    "Cosmos：11月新文章可帮助理解动作条件观测预测，但模型卡标注V1.0为10月20日，因此不当成新模型再入选。视频质量指标与真实动作任务成功率不能混用。原文：https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation；模型卡：https://huggingface.co/nvidia/Cosmos3-Nano-Sim-Bimanual 。",
-    "科研AI：BioBasicsBench是原始实验数据解释评测，不是第2期Rosalind免费学术准入的效果或收入证明；66.7%为评分奖励均值，不改写为实验成功率。",
-    "宏观：新服务贸易数据对应1—9月，不能反证上期10月制造业PMI回落；BLS就业发布时间晚于10月FOMC，不能用事后材料解释当时决策。"
+    "对照第2期 MARS 和第5期 ToyBlocks，GR00T 2 新增跨本体真机和少样本测量。保留固定硬件、初始场景、任务与延迟口径的比较要求。",
+    "DSX 的集群工具预览延伸了此前基础设施系列的覆盖，但第3期电力设备适配到商业合同的证据仍待获得。俄勒冈案补充另一地区制度层的真实约束。",
+    "台积电10月营收延续前两期经营跟踪。第2期提出的现金流和投入问题仍需完整季度数据。",
+    "第2期的上下游价格分化在10月同比数据中扩大。对企业层利润的判断仍应检查分项、采购合同与终端价格。"
   ]
 }
