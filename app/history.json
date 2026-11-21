@@ -1638,5 +1638,468 @@
       "科研AI：BioBasicsBench是原始实验数据解释评测，不是第2期Rosalind免费学术准入的效果或收入证明；66.7%为评分奖励均值，不改写为实验成功率。",
       "宏观：新服务贸易数据对应1—9月，不能反证上期10月制造业PMI回落；BLS就业发布时间晚于10月FOMC，不能用事后材料解释当时决策。"
     ]
+  },
+  {
+    "id": "2026-11-14",
+    "number": 6,
+    "title": "从真机适配到电力合同，AI 部署的条件更具体了",
+    "subtitle": "11月8—14日｜具身智能、软件与电力设施，以及就业、贸易和经营数据",
+    "start": "2026-11-08",
+    "end": "2026-11-14",
+    "generatedAt": "2026-11-14T17:07:44.366Z",
+    "lead": "观察员推论：本周值得研究的是每项能力进入实际流程后还需要付出的成本。GR00T 2 给出了目标本体的示范与微调条件，编程和集群工具扩展了部署选择，俄勒冈的电价方案明确了部分数据中心的供电责任。自由职业数据和跨境贸易统计也提示，预算或意向增长之后，要继续跟踪需要投入的工时以及实际兑现。",
+    "takeaways": [
+      "GR00T 2 提供有条件的少样本真机结果，长任务成绩对起始场景和本体敏感。",
+      "GPU 副本就绪速度和数据中心供电条款分别约束日常运行与新增容量。",
+      "Upwork 样本里项目报价和工时的差异大于挂牌时薪差异，个人机会要按实际结算和投入时间重算。",
+      "台积电月报、中国价格分项和进博会意向成交提供三种不同的需求和经营证据。"
+    ],
+    "events": [
+      {
+        "id": "nvidia-gr00t2-corl-20261109",
+        "title": "GR00T 2 给出跨本体适配与接触任务的真机数据",
+        "sector": "人工智能",
+        "region": "跨境",
+        "date": "2026-11-09",
+        "published": "2026-11-09",
+        "kind": "已发生",
+        "confidence": "一手确认",
+        "stage": "早期信号",
+        "horizon": "中期",
+        "fact": "NVIDIA 11月9日在 CoRL 介绍 GR00T 2。模型从历史图像、语言和机器人状态联合预测未来视频与动作块。白皮书第3.1节在 Dexter 双灵巧手平台上评估50项目标本体未见任务，这些任务出现在其他机器人数据或人类视频中。零样本单次试验成功率为40%，50项中有40项至少成功一次。每任务用1次或5次示范进行 LoRA 微调，作者报告平均成功率分别为71%和95%，每次微调在单张 RTX 5090 上约30分钟。Turbo 在宇树 G1 搭载的 Jetson Thor 上单次预测延迟中位数为124毫秒，SONIC 底层控制频率为50赫兹。",
+        "interpretation": "推论：少量目标本体示范可能弥补精细接触误差。端侧预测、底层跟踪与整项任务成功分别衡量不同环节，需保留各自的分母和时序。",
+        "investment": "推论：核对客户验收、现场人工接管和售后成本后，再评估工业部署的持续收入。",
+        "business": "推论：从插接或装配的一项固定工序验证，预先冻结工装、初始物体分布和交付标准，比较示范采集、微调与人工兜底成本。",
+        "career": "推论：精读白皮书图2、表1与第4.6节，对照零样本、少样本和整任务控制。记录单次预测时延、动作块长度与底层控制周期。",
+        "watch": "正式代码与权重、许可证、同等起始场景下的基线、独立实机复测、持续产出和接管率。研究页将代码列为12月计划。",
+        "risk": "结果来自作者。表1注明 YAM 卡车组装采用调整后更容易的起始场景，原场景中 GR00T 2 仅成功7/20次。需特别检查场景难度与硬件差异。",
+        "companies": [
+          "NVIDIA",
+          "宇树科技 Unitree"
+        ],
+        "storyId": "nvidia-gr00t2-corl-20261109",
+        "changeType": "关联观察",
+        "previousEventIds": [
+          "toyblocks-controlled-evaluation-20261106",
+          "mars-wam-acceleration-20261013"
+        ],
+        "relatedEventIds": [],
+        "delta": "第5期 ToyBlocks 提供可控仿真来定位泛化失败，第2期 MARS 提供基座相关的加速结果。本期新增不同模型的真机少样本对照及端侧运行数据。各研究使用的机器人、任务及延迟定义不同，需在同一协议下重测。",
+        "selectionReason": "作者同时公开了泛化条件、微调开销和负面例子，可追踪从训练数据到真机验收的具体瓶颈。",
+        "aiTopics": [
+          "具身智能",
+          "VLA",
+          "WAM"
+        ],
+        "sources": [
+          {
+            "name": "NVIDIA CoRL 发布",
+            "url": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/",
+            "date": "2026-11-09",
+            "type": "一手"
+          },
+          {
+            "name": "NVIDIA GEAR 11月白皮书，第3.1节、表1及第4.6节（按同期发布归档）",
+            "url": "https://research.nvidia.com/labs/gear/gr00t-2/assets/gr00t2_whitepaper.pdf",
+            "date": "2026-11-09",
+            "type": "一手"
+          },
+          {
+            "name": "NVIDIA GEAR 项目页与复现状态",
+            "url": "https://research.nvidia.com/labs/gear/gr00t-2/",
+            "date": "2026-11-09",
+            "type": "一手"
+          }
+        ]
+      },
+      {
+        "id": "qwen-code-1-preview-20261111",
+        "title": "Qwen Code 1.0 预览版提供原生安装与多模型端点",
+        "sector": "人工智能",
+        "region": "中国",
+        "date": "2026-11-11",
+        "published": "2026-11-11",
+        "kind": "已发生",
+        "confidence": "一手确认",
+        "stage": "早期信号",
+        "horizon": "中期",
+        "fact": "QwenLM GitHub 于11月11日03:55 UTC 发布 v1.0.0-preview。发布说明称整合 Qoder 与 Qwen Code 的代码理解、实现、调试和测试能力，支持多模型提供方、自定义兼容端点、会话恢复及非交互执行。发布资产包含 macOS、Linux、Windows 原生包。",
+        "interpretation": "推论：支持不同模型端点有助于企业按任务调整底层模型。代码任务的交付成本还取决于测试、人工复核与会话恢复。",
+        "investment": "推论：关注企业付费、留存和推理支出。预览版发布与下载量仅提供采用线索。",
+        "business": "推论：用同一组历史修复任务比较原流程和候选工具，测量测试通过率、人工审查时间及访问权限的配置成本。",
+        "career": "推论：把可复现构建、测试、会话恢复和错误回退写进作品说明。预览接口变动时可从固定版本复查。",
+        "watch": "稳定版、端点兼容性、平台安装失败率、权限控制、迁移工时及长期任务复测。",
+        "risk": "发布方说明预览接口可能变动。包存在仅证明分发入口，本期未安装或独立评测，也未将工具发布归为基础模型发布。",
+        "companies": [
+          "阿里巴巴",
+          "Qwen",
+          "Qoder"
+        ],
+        "storyId": "qwen-code-1-preview-20261111",
+        "changeType": "关联观察",
+        "previousEventIds": [
+          "tencent-hy4-release-20261104"
+        ],
+        "relatedEventIds": [],
+        "delta": "第5期记录腾讯 Hy4 接入办公与编码工具的产品路径。本期新增阿里编码智能体预览版的发布资产和接入方式，可在相同任务上比较工具层差异。Hy4 权重开放仍需另查官方材料。",
+        "selectionReason": "公开标记和平台安装包让国内编码智能体的分发、自动化与迁移条件可以核查。",
+        "aiTopics": [
+          "AI应用与智能体"
+        ],
+        "sources": [
+          {
+            "name": "QwenLM — v1.0.0-preview 发布页与资产",
+            "url": "https://github.com/QwenLM/qwen-code/releases/tag/v1.0.0-preview",
+            "date": "2026-11-11",
+            "type": "一手"
+          }
+        ]
+      },
+      {
+        "id": "dsx-kubernetes-openshell-20261110",
+        "title": "OpenShell 进入 CNCF，DSX 增加 GPU 集群管理工具",
+        "sector": "人工智能",
+        "region": "海外",
+        "date": "2026-11-10",
+        "published": "2026-11-10",
+        "kind": "已发生",
+        "confidence": "一手确认",
+        "stage": "早期信号",
+        "horizon": "中期",
+        "fact": "11月10日 CNCF 确认 OpenShell 和 Agent Substrate 进入 Sandbox。NVIDIA 同期公布 DSX 的 Kubernetes 管理组件预览及 Snapshot。NVIDIA 引述设计伙伴 Crusoe 在 HGX B300 上测试 GLM-5.3，工作负载就绪时间由约8分钟缩短至31秒，属于该配置的冷启动数据。",
+        "interpretation": "推论：短时突发负载可能受益于更快的副本恢复。文件、网络和凭据的权限执行需要在智能体运行环境中单独验证。",
+        "investment": "推论：关注实际生产采用、资源利用率和续约。Sandbox 接纳和单项恢复速度不足以估算商业回报。",
+        "business": "推论：先比较常驻副本与快照恢复的服务成本，用目标模型和故障回放评估就绪时间、失败率及存储开销。",
+        "career": "推论：学习 Kubernetes 推理部署、最小权限与可复现性能测试，记录检查点读取、容器就绪及首个有效响应的时间。",
+        "watch": "独立复测、快照兼容性、每请求成本、端到端尾延迟、权限绕过测试和维护者贡献。",
+        "risk": "设计伙伴结果针对特定硬件和模型。读取快照、显存及跨版本兼容的成本可能抵消收益。CNCF Sandbox 属早期项目阶段。",
+        "companies": [
+          "NVIDIA",
+          "Google",
+          "Crusoe"
+        ],
+        "storyId": "ocp-ai-infrastructure-standards",
+        "changeType": "持续进展",
+        "previousEventIds": [
+          "dsx-energy-partners-20261021"
+        ],
+        "relatedEventIds": [],
+        "delta": "此前 DSX 跟踪的是配电、冷却和供应商适配，本期新增同一平台的软件管理、推理副本恢复与智能体权限治理证据。此前能源合作的合同及投运需继续单独核查。",
+        "selectionReason": "基金会确认治理状态，供应商又给出具体推理恢复条件，可验证基础设施到底减少哪一段等待。",
+        "aiTopics": [
+          "算力与基础设施",
+          "AI应用与智能体"
+        ],
+        "sources": [
+          {
+            "name": "CNCF — OpenShell 与 Agent Substrate 纳入 Sandbox",
+            "url": "https://www.cncf.io/announcements/2026/11/10/cncf-hits-major-milestones-with-global-community-growth-record-industry-investment-and-a-new-generation-of-projects-to-build-ai-systems-in-production/",
+            "date": "2026-11-10",
+            "type": "一手"
+          },
+          {
+            "name": "NVIDIA — DSX 发布与伙伴测试条件",
+            "url": "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure/",
+            "date": "2026-11-10",
+            "type": "一手"
+          }
+        ]
+      },
+      {
+        "id": "oregon-pacific-power-data-center-tariff-20261113",
+        "title": "俄勒冈批准 Pacific Power 大型数据中心电价方案",
+        "sector": "能源与电力",
+        "region": "海外",
+        "date": "2026-11-13",
+        "published": "2026-11-13",
+        "kind": "已发生",
+        "confidence": "一手确认",
+        "stage": "早期信号",
+        "horizon": "中期",
+        "fact": "俄勒冈州公用事业委员会 UE 463 最终命令标注11月13日登记。Pacific Power 同日说明，获批资费在其俄勒冈服务区为用电规模达到或可达20 MW的合资格数据中心设置独立客户类别，要求长期服务协议，相关设施和供电成本由该类客户承担。公司列明生效日为2027年1月1日。",
+        "interpretation": "推论：需预付或承担更多基础设施成本的项目，可能更重视负荷兑现、分期建设与投产节奏。",
+        "investment": "推论：用并网进度、负荷合同和资产利用率检验电力设备与机房项目的现金流假设。",
+        "business": "推论：为机房客户测算扩容、延迟和低利用率三种情形的电力总成本，确认客户采购流程后再评估服务需求。",
+        "career": "推论：练习读公用事业案卷，区分兆瓦容量、兆瓦时耗电、接入成本与服务期限。",
+        "watch": "正式资费文本、签约和接入时间、费用分摊、实际负荷及其他州规则。",
+        "risk": "本案期限与费用取决于适用条款和客户合同。用电需求与电力项目投运仍须按项目核验。",
+        "companies": [
+          "Pacific Power",
+          "PacifiCorp"
+        ],
+        "storyId": "oregon-pacific-power-data-center-tariff-20261113",
+        "changeType": "关联观察",
+        "previousEventIds": [
+          "dsx-energy-partners-20261021"
+        ],
+        "relatedEventIds": [],
+        "delta": "此前算电记录关心设备适配和并网约束。本期新增不同机构的成本分配规则，可将长期供电承诺纳入选址测算。该规则适用范围为这一公用事业服务区。",
+        "selectionReason": "有监管命令、适用门槛和生效日期，能从算力扩张计划下钻到项目承担的实际成本。",
+        "aiTopics": [
+          "算力与基础设施"
+        ],
+        "sources": [
+          {
+            "name": "俄勒冈州公用事业委员会 — UE 463 最终命令 26-443",
+            "url": "https://apps.puc.state.or.us/orders/2026ords/26-443.pdf",
+            "date": "2026-11-13",
+            "type": "一手"
+          },
+          {
+            "name": "Pacific Power — 门槛、服务范围与生效日期",
+            "url": "https://www.pacificpower.net/about/newsroom/news-releases/large-load-filing.html",
+            "date": "2026-11-13",
+            "type": "一手"
+          }
+        ]
+      },
+      {
+        "id": "tsmc-oct-revenue-20261110",
+        "title": "台积电10月营收同比增59.7%，月度数据继续验证经营规模",
+        "sector": "半导体与通信",
+        "region": "跨境",
+        "date": "2026-11-10",
+        "published": "2026-11-10",
+        "kind": "数据发布",
+        "confidence": "一手确认",
+        "stage": "商业验证",
+        "horizon": "中期",
+        "fact": "台积电11月10日公布10月合并净营收约5868.9亿新台币，环比增长14.7%，同比增长59.7%。月度金额未经审计，统计期为10月。",
+        "interpretation": "推论：月度营收增长支持继续跟踪先进制造与封装需求。分业务贡献仍需公司披露。",
+        "investment": "推论：把盈利、现金流、资本开支和市场估值纳入同一测算，再检验营收增长的兑现质量。",
+        "business": "推论：验证制造客户的测试、良率和产能协同痛点，取得实际采购和交付约束后再评估机会。",
+        "career": "推论：用公司月报与季报练习区分规模、产品组合、汇率及利润率。",
+        "watch": "后续月报、季度制程营收、毛利率、经营现金流与资本开支。",
+        "risk": "同比受基期影响，环比存在出货时点和汇率干扰。单月合并数据不足以归因到某一客户、制程或 AI 产品。",
+        "companies": [
+          "台积电 TSMC"
+        ],
+        "storyId": "tsmc-september-2026",
+        "changeType": "持续进展",
+        "previousEventIds": [
+          "tsmc-q3-profit-confirmation-20261015",
+          "tsmc-september-2026"
+        ],
+        "relatedEventIds": [],
+        "delta": "第1期记录9月营收，第2期记录第三季度利润。本期新增四季度首月营收，同比增速高于9月的54.6%。本月产品结构、利润率和现金回收仍待季度披露。",
+        "selectionReason": "为连续跟踪的芯片经营提供新一期公司原始数据，有助于检验增长延续性。",
+        "aiTopics": [
+          "算力与基础设施"
+        ],
+        "sources": [
+          {
+            "name": "台积电 — 10月营收原始公告",
+            "url": "https://pr.tsmc.com/system/files/newspdf/attachment/382be7eb993b44afd73aa6fbcf92ac792433c7d1/October%202026%20%28E%29_final_wmn.pdf",
+            "date": "2026-11-10",
+            "type": "一手"
+          }
+        ]
+      },
+      {
+        "id": "china-october-prices-20261109",
+        "title": "中国10月核心CPI涨幅回落，PPI涨幅扩大",
+        "sector": "宏观与贸易",
+        "region": "中国",
+        "date": "2026-11-09",
+        "published": "2026-11-09",
+        "kind": "数据发布",
+        "confidence": "一手确认",
+        "stage": "商业验证",
+        "horizon": "中期",
+        "fact": "国家统计局11月9日发布10月物价。CPI同比上涨0.7%，环比持平，核心CPI同比上涨0.8%。PPI同比上涨5.7%、环比上涨0.7%。食品CPI同比下降2.9%，非食品同比上涨1.5%。",
+        "interpretation": "推论：原料、出厂和终端售价的传导可能随行业分化。利润需要用企业自己的量价、库存及采购合同核查。",
+        "investment": "推论：按客户议价能力与成本结构查看毛利、库存及回款，避免把指数差值代入企业财务模型。",
+        "business": "推论：跟踪主要原料采购单价与实际成交价，测试调价后订单、投诉和回款的变化。",
+        "career": "推论：从官方分项表练习解释总指数、核心指标与基期，选一个行业追踪量价传导。",
+        "watch": "后续CPI及PPI分项、企业新品定价、销量、库存周转和季报。",
+        "risk": "全国指数权重与具体公司的成本结构不同。行业数据还可能受季节、商品价格及同比基数驱动。",
+        "companies": [],
+        "storyId": "china-consumer-producer-price-structure",
+        "changeType": "持续进展",
+        "previousEventIds": [
+          "china-september-prices-20261014"
+        ],
+        "relatedEventIds": [
+          "china-oct-pmi-20261031"
+        ],
+        "delta": "同口径较第2期的9月数据，CPI和核心CPI同比涨幅各回落0.2个百分点，PPI同比涨幅扩大0.7个百分点。10月PMI描述企业景气变化方向，价格数据补充了同期的价格层证据。",
+        "selectionReason": "同一统计体系给出了前后两月可比较的结构变化，可用来检验行业定价假设。",
+        "aiTopics": [],
+        "sources": [
+          {
+            "name": "国家统计局 — 10月CPI",
+            "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261109_1965795.html",
+            "date": "2026-11-09",
+            "type": "一手"
+          },
+          {
+            "name": "国家统计局 — 10月PPI",
+            "url": "https://www.stats.gov.cn/sj/zxfbhjd/202611/t20261109_1965794.html",
+            "date": "2026-11-09",
+            "type": "一手"
+          }
+        ]
+      },
+      {
+        "id": "upwork-ai-project-scope-20261110",
+        "title": "Upwork 研究显示 AI 项目的预算与工时差异大于报价时薪差异",
+        "sector": "教育与工作",
+        "region": "海外",
+        "date": "2026-11-10",
+        "published": "2026-11-10",
+        "kind": "数据发布",
+        "confidence": "一手确认",
+        "stage": "早期信号",
+        "horizon": "中期",
+        "fact": "OpenAI 与 Upwork 11月10日发表联合研究。价格和工时比较使用截至2026年4月的分析样本。控制工作子类别和发帖月份后，AI相关固定价项目的发帖预算高约52%，挂牌时薪高约1.5%。在已雇用且记录了正工时的按时计费合同中，首90天工时高约41%。",
+        "interpretation": "推论：客户可能在买更大的交付范围。项目设计可把领域实施、结果验收和运营整合进服务，工时增加也可能反映实施更复杂。",
+        "investment": "推论：研究平台及工具公司时比较成交、复购、佣金与服务工时，避免把项目挂牌预算计为收入。",
+        "business": "推论：用真实需求测试带验收标准的固定范围报价，跟踪实际成交、交付工时和返工成本。",
+        "career": "推论：把行业知识、AI集成与质量核验组合成可展示的项目，用实际结算金额除以全部投入工时复盘。",
+        "watch": "同类任务成交价、发送报价到签约转化率、最终支付、实际工时，以及其他平台复核。",
+        "risk": "观察性数据来自单一平台。样本选择、项目复杂度和地区差异可能同时影响是否使用AI及预算，无从据此得出因果工资溢价。",
+        "companies": [
+          "OpenAI",
+          "Upwork"
+        ],
+        "storyId": "upwork-ai-project-scope-20261110",
+        "changeType": "首次出现",
+        "previousEventIds": [],
+        "relatedEventIds": [],
+        "selectionReason": "研究同时报告预算、时薪和工时，能检验市场究竟多买了哪一类工作。",
+        "aiTopics": [
+          "AI应用与智能体"
+        ],
+        "sources": [
+          {
+            "name": "OpenAI 与 Upwork — 发布说明",
+            "url": "https://openai.com/index/ai-effect-on-freelance-work/",
+            "date": "2026-11-10",
+            "type": "一手"
+          },
+          {
+            "name": "联合研究原报告，第2.2节、图2.4及方法附录",
+            "url": "https://cdn.openai.com/pdf/openai-upwork-full-report.pdf",
+            "date": "2026-11-10",
+            "type": "一手"
+          }
+        ]
+      },
+      {
+        "id": "chatgpt-wallet-card-approval-20261113",
+        "title": "ChatGPT Wallet 小范围推出，逐笔授权接入原有银行卡体系",
+        "sector": "金融与支付",
+        "region": "海外",
+        "date": "2026-11-13",
+        "published": "2026-11-13",
+        "kind": "已发生",
+        "confidence": "一手确认",
+        "stage": "早期信号",
+        "horizon": "中期",
+        "fact": "OpenAI 11月13日宣布 ChatGPT Wallet 开始在 dots 推出，首批面向持合资格美国发行银行卡、年满18岁的美国 ChatGPT Pro 用户。用户逐笔核对金额和卡片，并通过安全检查确认。卡网络以支付令牌代替真实卡资料，商家继续负责履约、退货和客服。",
+        "interpretation": "推论：低误拒的授权识别、价格与库存同步、退款后的对账，可能比购物推荐本身更接近商家的运营瓶颈。",
+        "investment": "推论：先跟踪完成且结算的交易、费率、争议和复购，再评估对商家与支付机构的增量贡献。",
+        "business": "推论：访谈已有商户和支付服务商，核对对账、用户撤销、库存更新及误拒成本，确认可计费的环节。",
+        "career": "推论：学习支付令牌、授权记录、对账、拒付与退款流程，用测试环境演练异常订单归因。",
+        "watch": "地区和卡片开放范围、结账成功率、误拒、退款、争议处理时长和净新增交易。",
+        "risk": "首批资格有限，逐笔授权增加步骤。风险系统仍可能误拒，实际支付表现与未来委托模式待验证。",
+        "companies": [
+          "OpenAI",
+          "American Express",
+          "Mastercard",
+          "Visa"
+        ],
+        "storyId": "chatgpt-wallet-card-approval-20261113",
+        "changeType": "关联观察",
+        "previousEventIds": [
+          "cpmi-payment-analysis-20261029"
+        ],
+        "relatedEventIds": [],
+        "delta": "第4期 CPMI 报告关注支付系统的结算与责任，本期新增采用现有卡网络的逐笔授权案例。该案例的实际付款、争议及欺诈率仍待运行数据。",
+        "selectionReason": "发布明确了适用人群、授权方式和商家责任，给智能体商业化提供可检验的交易环节。",
+        "aiTopics": [
+          "AI应用与智能体"
+        ],
+        "sources": [
+          {
+            "name": "OpenAI — Wallet 原始发布与首批资格",
+            "url": "https://openai.com/index/introducing-chatgpt-wallet/",
+            "date": "2026-11-13",
+            "type": "一手"
+          }
+        ]
+      },
+      {
+        "id": "ciie9-transaction-intentions-20261110",
+        "title": "第九届进博会披露一年期意向成交及重点参展数据",
+        "sector": "宏观与贸易",
+        "region": "跨境",
+        "date": "2026-11-10",
+        "published": "2026-11-10",
+        "kind": "数据发布",
+        "confidence": "一手确认",
+        "stage": "早期信号",
+        "horizon": "中期",
+        "fact": "第九届进博会于11月10日闭幕。主办方同日披露，4142家企业参展，按一年计意向成交854.5亿美元，较上届增加2.3%。展会跨越两个周报窗口，闭幕汇总归入本期。",
+        "interpretation": "推论：对接活动能降低发现初期买卖线索的成本，真实需求应结合具体买家采购条件、样品验证和复购判断。",
+        "investment": "推论：以公司正式合同、收入确认及收款记录重新核对展会订单叙述。",
+        "business": "推论：按细分品类访谈采购商，记录样品、认证、运输和结算要求，优先验证可签小单的场景。",
+        "career": "推论：用一个进口品类编制从展会对接到履约交付的流程说明，积累双语行业与贸易实务能力。",
+        "watch": "意向转正式合同率、海关执行、进口落地、合同履约与回款周期。",
+        "risk": "意向金额可能调整或取消。各企业、地区和品类的转化率无法从总额推出。",
+        "companies": [],
+        "storyId": "ciie9-transaction-intentions-20261110",
+        "changeType": "首次出现",
+        "previousEventIds": [],
+        "relatedEventIds": [],
+        "selectionReason": "主办方披露了统计口径，能据此筛选跨境需求并跟进意向转合同的环节。",
+        "aiTopics": [],
+        "sources": [
+          {
+            "name": "中国国际进口博览会 — 第九届闭幕数据",
+            "url": "https://www.ciie.org/zbh/bqgffb/20261110/66216.html",
+            "date": "2026-11-10",
+            "type": "一手"
+          }
+        ]
+      }
+    ],
+    "coverageGaps": [
+      "云端采集于11月14日北京时间14:57完成，5个来源全部成功，共45条候选。OpenAI 19条、NVIDIA 10条、Hugging Face 10条、BIS 1条、美联储5条。原文按公告注明的日期记录，11月14日发生于采集完成后的事件覆盖有限。",
+      "自动任务晚于周六09:00目标，生成时间使用实际时间。另检索国内公司、监管、统计局及跨境贸易原文。",
+      "检索了 DeepSeek、Qwen、腾讯、智元、宇树和 Physical Intelligence 的公开入口。国内软件信号选入带版本的 Qwen Code。部分模型候选缺少可核验的正式权重或当周原始发布日期。公开入口对企业全部活动的覆盖有限。",
+      "本期机器人、推理和智能体结果来自发布方或作者。独立复现待做，研究页称 GR00T 2 代码计划12月公布。未形成适合单列的医疗、农业或航天记录。"
+    ],
+    "actions": [
+      {
+        "type": "投资",
+        "title": "按兑现阶段跟踪芯片和算电",
+        "detail": "用台积电月报、财报与数据中心电力合同分别记录营收、资本投入、现金流、并网和成本责任。只用同一会计口径及对应统计期做比较。"
+      },
+      {
+        "type": "创业",
+        "title": "给一个项目估出完整交付成本",
+        "detail": "从代码集成、测试、复核和异常处理估工时。与实际签约和收款对照，用已兑现的有效时薪决定是否继续投入。"
+      },
+      {
+        "type": "成长",
+        "title": "用 GR00T 2 的失败案例设计真机对照",
+        "detail": "阅读图2及表1，构造固定初始分布和未见布局两组验收，分开记录零样本成功、少样本适配成本与整任务恢复次数。"
+      }
+    ],
+    "nextWeek": [
+      {
+        "date": "2026-11-18",
+        "title": "腾讯第三季度业绩日程",
+        "detail": "公司日程列示香港时间20:00。关注经营现金流与资本开支，并查阅财报对 AI 投入及采用披露的范围。",
+        "url": "https://www.tencent.com/zh-cn/investors/investor-kit-calendar/"
+      }
+    ],
+    "review": [
+      "对照第2期 MARS 和第5期 ToyBlocks，GR00T 2 新增跨本体真机和少样本测量。保留固定硬件、初始场景、任务与延迟口径的比较要求。",
+      "DSX 的集群工具预览延伸了此前基础设施系列的覆盖，但第3期电力设备适配到商业合同的证据仍待获得。俄勒冈案补充另一地区制度层的真实约束。",
+      "台积电10月营收延续前两期经营跟踪。第2期提出的现金流和投入问题仍需完整季度数据。",
+      "第2期的上下游价格分化在10月同比数据中扩大。对企业层利润的判断仍应检查分项、采购合同与终端价格。"
+    ]
   }
 ]
